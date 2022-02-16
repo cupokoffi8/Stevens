@@ -1,0 +1,49 @@
+Percent Ionization: [H]/[HA]*100
+
+Another way to measure the strength 
+of an acid is to determine the percentage 
+of acid molecules that ionize when dissolved 
+in water; this is called the percent ionization.
+
+–The higher the percent ionization, 
+the stronger the acid.
+
+
+Strong Bases: 
+
+The stronger the base, the more willing 
+it is to accept H+.–Use water as the 
+standard acid.
+
+-For ionic bases, like NaOH, practically 
+all units are dissociated into OH– and 
+cation, Na+.
+
+–Strong electrolytes
+–Multi-OH–strong bases completely 
+dissociate in one step.
+
+
+Weak Bases:
+
+In weak bases, only a small fraction of 
+molecules accept H+.
+
+–Weak electrolyte
+–Most of the weak base molecules do not 
+take H+ from water
+–Much less than 1% ionization in water
+
+
+Base Ionization Constant (Kb): 
+
+Base strength is measured by the size of 
+the equilibrium constant when it reacts with 
+H2O.
+
+B + H2O -> OH− + BH+
+
+The equilibrium constant is called the base 
+ionization constant, Kb.
+
+-Larger Kb = stronger base
