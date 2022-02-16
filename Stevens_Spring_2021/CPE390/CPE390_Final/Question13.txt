@@ -1,0 +1,25 @@
+.global _Z7avgsqrtPdi
+	
+_Z7avgsqrtPdi:
+
+	vldr.f64	d0, zero //Load zero onto d0
+	vmov		s4, r1
+	vcvt.f64.s32	d2, s4
+	@r1 is the length of the array 
+
+1:
+	vldr.f64	d1, [r0] //Load value from array onto d1
+	vsqrt.f64	d3, d1 //d3 = sqrt(d1) 
+	add		r0, #8 //Move to next value in array
+	vadd.f64	d0, d0, d3 //d0 = d0 + d3
+	sub		r1, #1 //Subtract r1 by one
+	cmp		r1, #0 //Compare r1 to zero
+	bgt		1b //While r1 is greater than zero, keep looping through
+	vdiv.f64	d0, d0, d2 //d0 = (d0/d2) 
+	bx		lr //Return 
+	
+
+
+zero:
+	.word	0x00000000
+	.word	0x00000000

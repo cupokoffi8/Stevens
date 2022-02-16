@@ -1,0 +1,19 @@
+.global _Z5pairsii
+    
+    //Q4
+_Z5pairsii:
+	push	{r4, r5, r6, r7}
+	ldr	r4, [r0]
+	mov	r5, #0
+	mov	r7, #0 //Product
+1:
+	add	r6, r4, #1
+	mul	r7, r4, r6
+	add	r3, r4, r6
+	mul	r2, r7, r3
+	add	r5, #1
+	cmp	r5, r1
+	ble	1b
+	pop	{r4, r5, r6, r7}
+	bx	lr
+	

@@ -1,0 +1,17 @@
+.global _Z1fPii
+
+_Z1fPii:
+	@Function that counts the number of elements less than 7 in a given array [From C++]
+	mov	r3, #0 //Set r3 equal to zero [int numOfElements = 0] 
+	
+	@r1 is the length of the array [set in C++ function setup] 
+1:
+	ldr	r2, [r0] //Load value in array r0 onto r2
+	cmp	r2, #7 //Compare r2 and r7
+	addlt	r3, #1 //Add r3 and one [Number of each element that is less than 7 in the array]
+	add	r0, #4 //Go to the next value in the array
+	sub	r1, #1 //Subtract one from the length 
+	cmp	r1, #0 //Compare r1 and zero  
+	bgt	1b //While r1 is greater than zero, loop back through 1
+	mov	r0, r3 //Move the total amount onto r0
+	bx	lr //Return 
