@@ -1,39 +1,48 @@
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<Homework 1>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<Homework 1>>>>>>>>>>>>>>>>>
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 1 (2 points).
-__________________________________________________________________
-Explain If there’d still be seasons on Earth, 
+--------------------------------------------
+Explain if there’d still be seasons on Earth
 
-a) if Earth’s axis has no tilt and is perfectly perpendicular to 
-the ecliptic plane.
+a) if Earth’s axis has no tilt and is 
+perfectly perpendicular to the ecliptic plane.
 
-[[ If the axis of Earth was not tilted, and instead perpendicular 
-to the ecliptic plane, there would not be seasons on Earth. Were 
-there no tilt along the Earth’s axis, its hemispheres would always 
-be the same distance from the sun. As a result, there would not be 
-a change in sun exposure in different locations throughout the 
-year, instead having uniform climates all over the Earth. ]];
+[[ If the axis of Earth was not tilted, and 
+instead perpendicular to the ecliptic plane, 
+there would not be seasons on Earth. Were 
+there no tilt along the Earth’s axis, its 
+hemispheres would always be the same 
+distance from the sun. As a result, there 
+would not be a change in sun exposure in 
+different locations throughout the year, 
+instead having uniform climates all over the 
+Earth. ]];
 
-b) if Earth’s axis is in the ecliptic plane.[[ If the Earth were tilted 90o, placing its axis in the ecliptic 
-plane, it would be almost inhabitable due to the harsh seasons. 
-However, instead of having four seasons like we do with a 23.5o 
-angle, there would only be two seasons with respect to the Earth’s 
-orbit around the sun. Each half of the Earth would either 
-experience a harsh summer or winter cold depending on where the 
-sunlight is directed. Also, a day would last an entire year at one 
-end of the Earth, while the other end would never see daylight. 
-Due to the consistent exposure or lack of exposure to sunlight 
-depending on which end of the Earth you are on, temperatures would 
-be too extreme for most life, besides maybe bacteria and some 
+b) if Earth’s axis is in the ecliptic plane.[[ If the Earth were tilted 90o, placing its 
+axis in the ecliptic plane, it would be 
+almost inhabitable due to the harsh seasons. 
+However, instead of having four seasons like 
+we do with a 23.5o angle, there would only be 
+two seasons with respect to the Earth’s orbit 
+around the sun. Each half of the Earth would 
+either experience a harsh summer or winter 
+cold depending on where the sunlight is 
+directed. Also, a day would last an entire 
+year at one end of the Earth, while the other 
+end would never see daylight. Due to the 
+consistent exposure or lack of exposure to 
+sunlight depending on which end of the Earth 
+you are on, temperatures would be too extreme 
+for most life, besides maybe bacteria and some 
 microorganisms. ]];
 
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 2 (2 points).
-__________________________________________________________________
+--------------------------------------------
 The Sun is about 27,000 light-years away from the center of our own 
 galaxy. 
 
@@ -64,10 +73,10 @@ to AU by dividing by 150000000, resulting in a distance of
 1702944000 AU. ]];  
 
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 3 (2 points).
-__________________________________________________________________
+--------------------------------------------
 For a neutron star whose density is 5e17 kg/m3,
 
 a) what would the mass of 1 teaspoon’s worth of the material from 
@@ -83,10 +92,10 @@ b) how many empire state buildings (3.3e8 kg) would that be?
 7575.75 empire state buildings. ]];  
 
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 4 (4 points).
-__________________________________________________________________
+--------------------------------------------
 In class we learned the difference between keeping track of time 
 relative to distant stars and relative to the Sun, e.g. sidereal 
 day vs. solar day. A tropical year has 365.2422 solar days and 
@@ -120,10 +129,10 @@ distant stars the same, 23:56:07 would have to pass, making the
 time 08:56:07 p.m. ]]; 
 
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 5 (5 points).
-__________________________________________________________________
+--------------------------------------------
 With the help of the diagram above, answer the following for the 
 location of Hoboken (latitude φ = 41 deg): 
 
@@ -154,10 +163,10 @@ equinox, resulting in the zenith angle being equal to the latitude
 at solar noon, which means the angle in Hoboken would be 41o ]]; 
 
 
-------------------------------------------------------------------
+--------------------------------------------
 
 Problem 6 (2 points).
-__________________________________________________________________
+--------------------------------------------
 a) What is so special about Polaris? Is it because it’s the 
 brightest star in the sky? If your answer is no, then explain why 
 else Polaris is special. 
@@ -177,3 +186,14 @@ today and 13000 years ago.
 in different directions on different time intervals. Roughly 13,000 
 years ago, Vega was the north star, and in about 13,000 years, it 
 will once again be the north star. ]]; 
+
+
+-------------------------------------------- 
+
+Problem 7 (1 point). 
+--------------------------------------------
+Do lunar eclipses happen every single month? Explain your answer. 
+
+No, a lunar eclipse occurs when the Moon enters the Earth's shadow. 
+They do not happen every month because the Earth's orbit around the 
+sun is not in the same plane as the Moon's orbit around Earth
