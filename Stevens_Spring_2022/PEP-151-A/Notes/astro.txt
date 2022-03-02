@@ -51,7 +51,7 @@ distance light travels in a year, to convert
 the Suns distance from the galactic center 
 from light-years to km. 
 [[ Using the fact that light travels at 
-approximately 300000000 meters/second it can 
+approximately 300000000 meters/sec it can 
 be converted to kilometers/second by simply 
 dividing by 1000, yielding 300000 
 kilometers/second. Since there are 
@@ -61,7 +61,7 @@ us 1080000000 kilometers/hour. We know that
 there are approximately 24 hours in a day, and
 365 days a year, allowing us to find the speed 
 of light per year by multiplying 
-(24)(365)(1080000000) giving us 9460800000000 
+(24)(365)(1080000000) giving 9460800000000 
 kilometers per year. Using the distance in 
 kilometers that light travels in a year, the 
 distance of 27000 light years can be obtained
