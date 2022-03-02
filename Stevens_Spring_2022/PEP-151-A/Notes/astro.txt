@@ -1,0 +1,156 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<Homework 1>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+------------------------------------------------------------------
+
+Problem 1 (2 points).
+__________________________________________________________________
+Explain If there’d still be seasons on Earth, 
+
+a) if Earth’s axis has no tilt and is perfectly perpendicular to 
+the ecliptic plane.
+
+[[ If the axis of Earth was not tilted, and instead perpendicular 
+to the ecliptic plane, there would not be seasons on Earth. Were 
+there no tilt along the Earth’s axis, its hemispheres would always 
+be the same distance from the sun. As a result, there would not be 
+a change in sun exposure in different locations throughout the 
+year, instead having uniform climates all over the Earth. ]];
+
+b) if Earth’s axis is in the ecliptic plane.[[ If the Earth were tilted 90o, placing its axis in the ecliptic 
+plane, it would be almost inhabitable due to the harsh seasons. 
+However, instead of having four seasons like we do with a 23.5o 
+angle, there would only be two seasons with respect to the Earth’s 
+orbit around the sun. Each half of the Earth would either 
+experience a harsh summer or winter cold depending on where the 
+sunlight is directed. Also, a day would last an entire year at one 
+end of the Earth, while the other end would never see daylight. 
+Due to the consistent exposure or lack of exposure to sunlight 
+depending on which end of the Earth you are on, temperatures would 
+be too extreme for most life, besides maybe bacteria and some 
+microorganisms. ]];
+
+
+------------------------------------------------------------------
+
+Problem 2 (2 points).
+__________________________________________________________________
+The Sun is about 27,000 light-years away from the center of our own 
+galaxy. 
+
+a) use the definition of light-year, i.e. distance light travels in 
+a year, to convert the Sun’s distance from the galactic center from 
+light-years to km. 
+[[ Using the fact that light travels at approximately 300000000 
+meters/second, it can be converted to kilometers/second by simply 
+dividing by 1000, yielding 300000 kilometers/second. Since there are 
+[60min•60sec/min] = 3600 seconds in an hour, this value can be 
+multiplied by 300000 to give us 1080000000 kilometers/hour. We know 
+that there are approximately 24 hours in a day, and 365 days a year, 
+allowing us to find the speed of light per year by multiplying 
+(24)(365)(1080000000), giving us 9460800000000 kilometers per year. 
+Using the distance in kilometers that light travels in a year, the 
+distance of 27000 light years can be obtained by multiplying 
+9460800000000 by 27000, resulting in a distance of 
+255441600000000000 kilometers. ]]; 
+
+b) use your answer in a) and the fact that 1AU = 1.5e8 km to figure 
+out how far the Sun is from the galactic center in AU. (i.e. can 
+think of it roughly as how many Sun-Earth system can be packed in 
+between) 
+
+[[ After finding the distance between the Sun and the galactic 
+center to be 255441600000000000 kilometers, this can be converted 
+to AU by dividing by 150000000, resulting in a distance of 
+1702944000 AU. ]];  
+
+
+------------------------------------------------------------------
+
+Problem 3 (2 points).
+__________________________________________________________________
+For a neutron star whose density is 5e17 kg/m3,
+
+a) what would the mass of 1 teaspoon’s worth of the material from 
+that neutron star be? You can assume the volume of a standard 
+teaspoon to be 5e-6 m3.
+
+[[ The mass is proportional to the product of the density and given 
+volume: (5e17)•(5e-6) = 25e11 kg. ]]; 
+
+b) how many empire state buildings (3.3e8 kg) would that be?
+
+[[ Given that the mass in a teaspoon is 25e11 kg: (25e11)/(3.3e8) = 
+7575.75 empire state buildings. ]];  
+
+
+------------------------------------------------------------------
+
+Problem 4 (4 points).
+__________________________________________________________________
+In class we learned the difference between keeping track of time 
+relative to distant stars and relative to the Sun, e.g. sidereal 
+day vs. solar day. A tropical year has 365.2422 solar days and 
+366.2422 sidereal days.
+
+a) What is the length of one sidereal day in terms of solar days?
+
+[[ Given that there are 365.2422 solar days and 366.2422 sidereal 
+days in a year, one sidereal day equates to 365.2422/366.2422 = 
+0.9973 solar days. ]]; 
+
+b) If we know the average solar day is 24 hours, use your answer 
+in a) to figure out the length of one sidereal day in terms of 
+hours, minutes and seconds (in the format hh:mm:ss). 
+
+[[ Knowing that the average solar day is 24 hours: 24 = x/0.9973, 
+x=23.9352hr. 60•0.9352=56.112min. 60•0.112=6.72sec. Thus, yielding 
+23:56:07 for a sidereal day. ]]; 
+
+c) Hypothetically, as part of a project to show Jupiter’s apparent 
+motion relative to distant stars, you took a first photo of Jupiter 
+one night at 9:00:00 pm. You want to take a second photo the very 
+next night and have all the distant stars show up at the same 
+positions in your photo as the night before (with exactly the same 
+camera position and orientation), at what time (in the format 
+hh:mm:ss) should you take the second photo? 
+
+[[ Knowing 23:56:07 for a sidereal day, if a photo were taken at 
+21:00 of Jupiter with the desire of keeping the location of the 
+distant stars the same, 23:56:07 would have to pass, making the 
+time 08:56:07 p.m. ]]; 
+
+
+------------------------------------------------------------------
+
+Problem 5 (5 points).
+__________________________________________________________________
+With the help of the diagram above, answer the following for the 
+location of Hoboken (latitude φ = 41 deg): 
+
+a) What is the angle between the zenith and the north celestial 
+pole?
+
+[[ An individual’s latitude is the altitude of their respective 
+celestial pole, so in Hoboken (Northern Hemisphere), the North 
+Celestial Pole is at an angle of 41o, and zenith is always at an 
+angle of 90o. Thus, the angle between zenith and the NCP is 49o in 
+Hoboken. ]]; 
+
+b) On the day of June solstice, when the sun is the highest in your 
+local sky, what is the angle between the sun and the zenith? 
+
+[[ On the day of the June solstice, the sun is located 23.5o above 
+the equator at its highest point (noon). At solar noon, the zenith 
+angle is at a minimum and is equal to latitude minus solar 
+declination angle, which is at its max on the summer solstice, at 
+23.5o. Thus, at a latitude of 41oN, the zenith angle is 41 - 23.5 
+= 17.5o ]]; 
+
+c) On the day of March equinox, when the sun is the highest in your 
+local sky, what is the angle between the sun and the zenith? 
+
+[[ The sun runs along the celestial equator during the March 
+equinox, resulting in the zenith angle being equal to the latitude 
+at solar noon, which means the angle in Hoboken would be 41o ]]; 
+
+
