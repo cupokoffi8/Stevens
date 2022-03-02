@@ -154,3 +154,26 @@ equinox, resulting in the zenith angle being equal to the latitude
 at solar noon, which means the angle in Hoboken would be 41o ]]; 
 
 
+------------------------------------------------------------------
+
+Problem 6 (2 points).
+__________________________________________________________________
+a) What is so special about Polaris? Is it because it’s the 
+brightest star in the sky? If your answer is no, then explain why 
+else Polaris is special. 
+
+[[ Polaris as we know it today in the 21st century is special, but 
+not because it is the brightest star in the sky. It is situated at 
+the North Celestial Pole (NCP), with Earth’s axis pointing directly 
+at it. While it will not be situated there forever, it allows for 
+us to easily keep track of where North is, simply by following 
+Polaris. ]]; 
+
+b) Was our north pole pointed at Polaris 13000 years ago? If not, 
+sketch out the orientation of the north pole relative to Polaris 
+today and 13000 years ago. 
+
+[[ No, the axis of rotation wobbles over time, causing it to point 
+in different directions on different time intervals. Roughly 13,000 
+years ago, Vega was the north star, and in about 13,000 years, it 
+will once again be the north star. ]]; 
