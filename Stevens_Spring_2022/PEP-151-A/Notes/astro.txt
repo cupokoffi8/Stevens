@@ -233,8 +233,278 @@ Do lunar eclipses happen every single month?
 Explain your answer. 
 
 No, a lunar eclipse occurs when the Moon 
-enters the Earth's shadow. They do not happen 
+enters the Earths shadow. They do not happen 
 every month because the Earth's orbit around 
-the sun is not in the same plane as the Moon's 
+the sun is not in the same plane as the Moons 
 orbit around Earth 
 
+
+============================================
+
+
+<<<<<<<<<<<<<<<<<Homework 2>>>>>>>>>>>>>>>>>>
+
+--------------------------------------------
+
+Problem 1 (5 points) 
+--------------------------------------------
+a) Whats the significance of the first 
+supernova Tycho Brahe observed?  
+
+[[ The first supernova not only challenged 
+the old belief that the “heavenly skies” 
+were permanent, perfect and fixed, but it 
+effectively disproved the geocentric model 
+touted by Aristotle and Ptolemy. ]]; 
+
+b) Why didnt Tycho detect stellar parallax? 
+
+[[ Stellar Parallax is defined as the 
+apparent displacement of a nearby star as 
+seen from an observer on Earth. Tycho 
+Brahe’s existence was just before the first 
+telescope was invented and used for 
+celestial observation by Galileo Galilei. As 
+a result of his observations of distant 
+objects being done with the naked eye, his 
+view was too far away for him to notice any 
+parallax. ]]; 
+
+c) Why do we sometimes see Mars moving 
+backward in the sky? 
+
+[[ Mars is farther away from the sun than 
+Earth, which means it moves slower, allowing 
+Earth to catch up to its orbital position, and 
+pass it. Once the Earth passes Mars, Mars 
+appears to be moving backwards; however, it is 
+actually just an illusion that is viewed when 
+the position of Mars is observed with respect 
+to nearby constellations over the time that 
+Earth catches up to and passes the orbital 
+position of Mars. ]]; 
+
+d) List at least 2 pieces of evidence ancient 
+philosophers/astronomers used to support the 
+Sun-centered model instead of the earth 
+centered model as we discussed in class. 
+
+[[ 
+1. In relation to the previous question, the 
+so-called “apparent retrograde” of Mars, or its 
+apparent backward motion, is one of the concepts 
+that imposed a challenge to the geocentric 
+theory, favoring a heliocentric model where 
+varying orbital planes could allow for such a 
+perceived motion from Earth, developed by 
+Copernicus. 
+
+2. Using Tycho Brahes observational data, 
+Johannes Kepler found an 8 arcminute variance 
+between the observed data and a theoretical model 
+composed of orbits that exhibited perfect circular 
+patterns. Instead of ignoring this small error, 
+Kepler analyzed the data, and ultimately found 
+that planets have elliptical orbital patterns with 
+respect to the sun. 
+
+3. Galileos observations with a skyward facing 
+telescope allowed him to explore various features 
+of the nearby universe with a much better 
+resolution. This included the rings of Saturn, 
+Jupiters moons and the characteristics of the 
+phases of Venus that can only be explained if it 
+orbits the Sun not Earth. Through his observations 
+with a better viewing resolution, the concept of 
+Stellar Parallax was observed. These observations 
+favored a heliocentric model that would support 
+stellar parallax, as the observable position of 
+stars would change as the Earths orbital position 
+around the sun changed. 
+]]; 
+
+
+--------------------------------------------
+
+Problem 2 (3 points) 
+--------------------------------------------
+A planet is orbiting a star of 1 solar mass 
+with an orbital period of 60 months. What is 
+the semimajor axis of the planets orbit? 
+
+[[ 
+Using Kepler’s Third Law (Newtons Two-Body 
+Problem can also be applied, more specifically 
+if the star has a mass that is not equal to 1 
+solar mass): p2=a3 where p = orbital period in 
+years and a = the semimajor axis in AU (1 AU = 
+1.5E8 km)
+
+p = 60/12 = 5 years
+
+Solve for a:
+
+a=p2/3 =(5)2/3 =2.92AU or 438E6km
+]]; 
+
+
+--------------------------------------------
+
+Problem 3 (6 points) 
+--------------------------------------------
+NASAs OSIRIS-REx mission is the first US 
+mission to retrieve a sample from an asteroid 
+(Bennu, mass 7.8e10 kg, radius 250 m) and 
+return it to Earth. OSIRIS-REx was launched in 
+2016, arrived at Bennu in 2018, and touched 
+down on the asteroid on Oct. 20, 2020. Before 
+the touchdown, OSIRIS-Rex was orbiting the 
+asteroid at a height of 2.0 km above the 
+surface of the asteroid. What was the orbital 
+speed of the spacecraft in m/s? You can assume 
+the asteroid is spherical and the orbit is 
+perfectly circular. (Feel free to review the 
+lecture slides/notes where we derived the 
+expression for orbital speed.) 
+
+[[ Using the concept of centripetal force, 
+orbital speed can be obtained. 
+
+Fc = (mv2)/r
+
+Gravitational Force:
+
+FG = (GMm)/(r2)
+
+G = 6.67E-11 m3/kg*s2
+
+To solve for orbital speed:
+v = sqrt([GM]/r) when m <<<<<<<<< M
+v = sqrt([(6.67E-11)(7.8E10)]/(2000+250)) 
+v = 0.048 m/s ]]; 
+
+
+--------------------------------------------
+
+Problem 4 (8 points) 
+--------------------------------------------
+In class we discussed how to use 
+conservation of energy to figure out escape 
+speed, the initial speed needed for a 
+“satellite” object to escape (i.e. speed 
+reduces to 0 when it reaches infinity). 
+Recall that the total orbital energy is the 
+sum of kinetic energy (mv2 /2) and 
+gravitational potential energy (−GMm/r).
+
+Now, lets use the same method to figure out 
+the “impact speed”. Imagine a meteorite 
+heading towards Mars. If the meteorites 
+speed is 0 when it’s infinitely far away 
+from Mars, what would its speed be when 
+it hits the surface of Mars?
+
+You can think of it as the reverse of the 
+“escape problem” discussed in class. List 
+the initial kinetic energy and potential 
+energy at infinity, as well as the final 
+kinetic energy and potential energy at 
+impact. And you might want to look up the 
+radius and mass of Mars. 
+
+[[ 
+At infinity, v = 0 m/s (Escape velocity 
+has been reached), so Kinetic Energy (KE) 
+= (mv2)/2 = 0 At infinity, r = infinity, 
+so Gravitational Potential Energy (UG) = 
+-(GMm)/r = 0  
+
+Conservation of energy can be used to 
+represent the meteorite from infinity to 
+the surface of Mars.
+
+Ef -Ei =0
+If Ei = 0 (At infinity) 
+and Ef = (mv2)/2 - (GMm)/r 
+(Sum of KE and U) 
+
+Then (mv2)/2 - (GMm)/r = 0, 
+so (mv2)/2 = (GMm)/r
+
+The radius of Mars can be used as r, 
+representing the radius at the moment of 
+impact. According to NASA, the volumetric 
+mean radius of Mars = 3389.5 km
+
+From that data, the mass of Mars (M) = 
+6.4169E23 kg
+
+Since m is much smaller than M, it can be 
+neglected.
+
+By rearranging the equation to solve for v, 
+we acquire the same equation that would be 
+used to find the escape velocity, except a 
+different radius is being used in this case.
+v = sqrt([2GM]/r) = 
+sqrt([2(6.67E-11)(6.4169E23)]/[3389.5E3]) = 
+5025.42 m/s 
+]]; 
+
+
+--------------------------------------------
+
+Problem 5 (4 points) 
+--------------------------------------------
+If the surface of Earth on average has a 
+temperature of 15oC, what is the wavelength 
+(in nm) at which its blackbody radiation 
+intensity is the highest? Which portion of the 
+electromagnetic spectrum is it (e.g. visible, 
+radio, etc.)? Hint: Wien’s law of blackbody 
+radiation. Remember to convert the temperature 
+into Kelvin.
+
+[[
+A blackbody represent an idealized object: 
+
+—absorbs all photons that strike them; 
+—does not let light escape easily.
+
+Using Wien’s Law of Blackbody Radiation:
+
+lmax = 2900000/(T [in Kelvin]) = 
+2900000/(15 + 273.15) = 10064.20 = 
+1.00642E4 nm 
+
+This places it in the infrared range based on 
+its wavelength. 
+]]; 
+
+
+--------------------------------------------
+
+Problem 6 (4 points) 
+--------------------------------------------
+In class we discussed the fundamental angular 
+resolution limit of telescopes due to the 
+wave nature of light. If you were to make an 
+observation in the mm wavelength range (say 
+centered at wavelength λ = 1 mm) with a 10 m 
+telescope, what is the best angular 
+resolution you can reach (in arcmin)? 
+
+[[ 
+Angular Resolution 
+(In Radians) = 1.22(λ/D) = 1.22(0.001/10) = 
+1.22E-4 rad 
+
+Angular Resolution 
+(In Arcsec) = 2.5E5(λ/D) = 
+2.5E5(0.001/10) = 25 arcsec 
+
+If there are 60 arcseconds in 1 arcminute:
+
+Angular Resolution (In Arcmin) = 
+(1/60)*(25) = 0.4167 arcmin 
+]]; 
