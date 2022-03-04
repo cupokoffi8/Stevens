@@ -490,17 +490,17 @@ In class we discussed the fundamental angular
 resolution limit of telescopes due to the 
 wave nature of light. If you were to make an 
 observation in the mm wavelength range (say 
-centered at wavelength λ = 1 mm) with a 10 m 
-telescope, what is the best angular 
+centered at wavelength lambda = 1 mm) with a 
+10 m telescope, what is the best angular 
 resolution you can reach (in arcmin)? 
 
 [[ 
 Angular Resolution 
-(In Radians) = 1.22(λ/D) = 1.22(0.001/10) = 
+(In Radians) = 1.22(lambda/D) = 1.22(0.001/10) = 
 1.22E-4 rad 
 
 Angular Resolution 
-(In Arcsec) = 2.5E5(λ/D) = 
+(In Arcsec) = 2.5E5(lambda/D) = 
 2.5E5(0.001/10) = 25 arcsec 
 
 If there are 60 arcseconds in 1 arcminute:
@@ -508,3 +508,137 @@ If there are 60 arcseconds in 1 arcminute:
 Angular Resolution (In Arcmin) = 
 (1/60)*(25) = 0.4167 arcmin 
 ]]; 
+
+
+<<<<<<<<<<<<<<<<<Lunar Phases>>>>>>>>>>>>>>>>>>
+
+         sun                          
+         ***      ------->                ( ||)  
+     **      **  ------->    
+    **        ** ------->       ( ||)     0     ( ||)  
+     **      **  ------->
+         ***      ------->                ( ||)  
+
+New Moon: 
+(||||)
+
+Waxing Crescent: 
+(||} )
+
+First Quarter:: 
+(||  )
+
+Waxing Gibbous: 
+({   )
+
+Full Moon: 
+(     )
+
+Waning Gibbous: 
+(   })
+
+Third Quarter: 
+(   ||) 
+
+Waning Crescent: 
+( {||)
+
+
+--------------------------------------------
+Q: At what time of the day would the 
+new moon be highest in the local sky?
+
+A: Noon
+--------------------------------------------
+--------------------------------------------
+Q: The New Moon is highest in the sky 
+to an earthbound observer at (noon, 
+sunset, midnight, sunrise).
+
+A: Noon
+--------------------------------------------
+--------------------------------------------
+Q: At what time of the day does the 
+first quarter moon start to appear 
+from the horizon?
+
+A: Noon; highest at sunset; sets at 
+midnight
+--------------------------------------------
+--------------------------------------------
+Q: The Full Moon is highest in the sky 
+to an earthbound observer at (noon, 
+sunset, midnight, sunrise). 
+
+A: Midnight
+--------------------------------------------
+--------------------------------------------
+Q: At what time of the day would the 
+full moon be highest in the local sky?
+
+A: Sunsets; highest at midnight; sets 
+at sunrise 
+--------------------------------------------
+--------------------------------------------
+Q: At what time of the day does the 
+third quarter moon start to appear 
+from the horizon? 
+
+A: Midnight; highest at sunrise; sets at 
+noon
+--------------------------------------------
+--------------------------------------------
+Q: Throughout the Lunar Cycle, the 
+Moon will appear further (eastward, 
+westward) in the sky at the same time 
+each day. Therefore, to an earthbound 
+observer, the time of day when the 
+Moon is highest in the sky becomes 
+progressively (earlier, later).
+
+A: Eastward later
+--------------------------------------------
+--------------------------------------------
+Q: Can a Full Moon be observed from 
+Earth by an observer positioned at 
+noon? Explain your reasoning.
+
+A: No, Full Moon rises 6am, sets 6pm
+--------------------------------------------
+--------------------------------------------
+Q: A Full Moon first becomes visible 
+to an earthbound observer positioned 
+at (noon, sunset, midnight, sunrise), 
+and he or she must look (eastward, 
+westward) to see the rising moon.
+
+A: Sunset, eastward
+--------------------------------------------
+--------------------------------------------
+Q: Assume a crescent phase of the 
+moon is observed in the early evening 
+in the western sky. During the next few 
+days the moon will be rising (earlier, 
+later) and the visible, illuminated portion 
+of the moon will become progressively 
+(larger, smaller).
+
+A: Later; larger
+--------------------------------------------
+--------------------------------------------
+Q: A 360 degree revolution of the moon 
+is called what?
+
+A: Sidereal
+--------------------------------------------
+--------------------------------------------
+how long does a sidereal take?
+
+A: 27.3 days
+--------------------------------------------
+--------------------------------------------
+When is the only time a solar eclipse 
+can occur?
+
+A: New moon
+--------------------------------------------
