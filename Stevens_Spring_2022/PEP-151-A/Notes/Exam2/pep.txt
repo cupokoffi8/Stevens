@@ -1,0 +1,995 @@
+<<<<<<<<<<<<<<<<<Homework 3>>>>>>>>>>>>>>>>>>
+
+--------------------------------------------
+
+Problem 1 (2 points).
+--------------------------------------------
+Sirius is the brightest star in the night 
+sky. It has a surface temperature of T=9940K. 
+
+a) At what wavelength (in nm) is its 
+radiation the most intense? Which part of 
+the electromagnetic spectrum does that 
+correspond to? 
+
+[[ 
+
+Blackbody radiation: 
+
+l = (2.898E6)/T = (2.898E6)/(9940) = 292 nm 
+
+This falls in the UV range 
+
+]];
+
+b) Given that the radius of Sirius is 1.71 
+times the radius of the Sun, and the Sun's 
+surface temperature is 5777K, what is the 
+ratio of their luminosities Lsirius/Lsun? [[ 
+
+Tsirius = 9940K       Tsun = 5777K 
+
+Rsirius = 1.71[Rsun] 
+
+L = R x T^4 
+
+ Lsirius    ([1.71Rsun]^2 x 9940^4)
+-------- = ------------------------ = 25.6 
+   Lsun        (Rsun^2 x 5777^4)
+
+]];
+
+
+--------------------------------------------
+
+Problem 2 (2 points).
+--------------------------------------------
+This problem is about stellar parallax. Feel 
+free to review the relevant lecture slides. 
+
+a) From Earth (with the standard baseline of 
+1 AU), if we observe the parallax angle of 
+Vega to be 0.13 arcseconds, what is the 
+distance to Vega in parsecs? What is that 
+distance in light years?  
+[[ 
+
+Stellar Parallax: 
+
+d = 1/p 
+where 
+d = distance in parsecs 
+p = parallax angle in arcseconds 
+
+d = 1/(0.13) = 7.69 parsecs 
+
+1 parsec = 3.26 light years 
+
+d = 7.69*3.26 = 25.07 light years 
+
+]]; 
+
+b) If through some other method we know that 
+the distance to Arcturus is 36.7 light years, 
+what do you expect its parallax angle (in 
+arcseconds) to be, as observed from Earth 
+(with the standard 1AU baseline)? 
+
+[[ 
+
+Given a distance of 36.7 light years, we 
+can find the distance in parsecs: 
+
+d_parsecs = (36.7)/(3.26) = 11.25 parsecs 
+
+d = 1/p, p = 1/d 
+
+p = 1/d = 1/(11.25) = 0.089 arcseconds 
+
+]];  
+
+
+--------------------------------------------
+
+<<<<<<<<<<<<<<<<  Notes  >>>>>>>>>>>>>>>>>>
+
+--------------------------------------------
+Two types of blackbody radiation: 
+
+Stefan-Boltzmann law (Law 1): 
+
+P = oT^4 (power per m^2) and o = 5.7E-8 
+
+Wien's law (Law 2): 
+
+l_max (In nm) = (2900000)/(T in Kelvin) 
+
+-------------------------------------------- 
+Why do we need telescopes? 
+
+ -Light-collecting power (more light) 
+ -Angular resolution (more details) 
+ -Other wavelength beyond visible light 
+
+Types of telescopes: 
+
+ -Refracting telescopes (use lenses) 
+ -Reflecting telescopes (use mirrors) 
+
+-------------------------------------------- 
+Refracting Telescope vs Reflecting Telescope 
+
+ -Mechanical issues 
+ -Chromatic aberration 
+ -Spherical aberration (blurry) 
+
+-------------------------------------------- 
+Light-collecting Power
+
+A = (pi)*(r^2) = (pi)*[(D^2)/4] (Area) 
+
+ Types of Mirrors: 
+  -Floppy Mirror 
+  -Segmented Mirror 
+
+ -Largest optical telescope so far ~10 m
+ -Larger ones ~30 m are under construction 
+
+-------------------------------------------- 
+Angular Resolution 
+
+ -Diffraction limited minimum angular 
+  separation in the sky that can be resolved: 
+
+  0_min (theta in radians) = 1.22(lambda/D) 
+
+  0_min (in arcseconds) = 2.5E5(lambda/D) 
+
+ For largest optical telescope so far (~10m): 
+  -Visible light range, ~530nm : 0.01 arcsecs 
+  -For a radio wave, ~3m : ~20 degrees! 
+  (Need much bigger dish for radio observe) 
+  -Radio telescopes can be combined via 
+   interferometry 
+
+--------------------------------------------
+Why do we put telescopes in space? 
+
+ -Blurring due to Earth's atmosphere 
+ -Atmospheric absorption 
+
+Improvements for ground-based telescopes 
+ -Adaptive optics 
+
+-------------------------------------------- 
+Infrared Observation 
+ -Equipment needs to be cooled 
+ -Low humidity (water vapor absorption) 
+
+-------------------------------------------- 
+X-rays and Gamma rays are too energetic to 
+be focused by mirrors... 
+
+--------------------------------------------
+Looking beyond light 
+ -Neutrinos 
+ -Cosmic rays (they're particles) 
+ -Gravitational wave 
+
+--------------------------------------------
+
+<<<<<<<<<<<<<<<Solar System>>>>>>>>>>>>>>>>>
+
+-------------------------------------------- 
+Our solar system consists of a star, eight 
+planets and countless smaller bodies such as 
+dwarf planets, asteroids and comets. 
+
+[Mercury, Venus, Earth, Mars, Jupiter, 
+ Saturn, Uranus, Neptune] 
+
+Planets are very tiny compared to the 
+distance in between them. 
+
+--------------------------------------------
+Over 99.8% of solar system's mass is the Sun 
+
+ -The surface looks solid in visible light, 
+  but it's a sea of hot gas (~5800K at 
+  surface, hotter inside) 
+
+ -In the core the nuclear fusion converts 
+  4 million tons of mass into energy each 
+  second. 
+
+-------------------------------------------- 
+Outer 4 planets: large gas-rich Jovian 
+planets 
+
+Inner 4 planets: small rocky terrestrial 
+planets 
+
+--------------------------------------------
+Patterns of Motion in the Solar System 
+
+ -Nearly circular orbital patterns 
+ -All planets except Venus and Uranus rotate 
+  counter clockwise 
+ -Venus is slowly retrograde 
+ -Uranus is almost rolling around its orbit 
+
+Axis Tilt of Planets 
+ -All planets have an axis tilt 
+
+--------------------------------------------
+Terrestrial Planets 
+
+ Mercury 
+  -Desolate, cratered, virtually no air 
+
+ Venus 
+  -Surface hidden by thick clouds, thus not 
+   visible directly but can be mapped with 
+   radar 
+  -Extreme greenhouse effect baked it to 
+   hotter than pizza oven with no relief at 
+   night 
+
+ Earth 
+  -The only SURFACE liquid water in the 
+   solar system 
+  -The atmosphere protects us from harmful 
+   solar radiation and maintains a MODERATE 
+   greenhouse effect (so that Earth is not 
+   as baked as Venus), for now anyway... 
+
+ Mars 
+  -Polar caps of frozen water and frozen 
+   carbon dioxide (dry ice). 
+  -Sign of water flow in the distant past, 
+   and might still have water underground. 
+  -Not enough oxygen to breathe, air pressure 
+   is less than on top of Mount Everest, 
+   usually below freezing, and lack of ozone 
+   projection. 
+
+--------------------------------------------
+Jovian Planets 
+
+ Jupiter 
+  -The largest and most massive planet 
+   (but less dense than terrestrial planets) 
+  -Like the sun, it has no solid surface, but 
+   there's no fusion in the core. 
+  -Most famous feature is the Great Red Spot, 
+   a long-lived storm. 
+
+ Saturn 
+  -Titan (one of Saturn's moons) is the only 
+   moon in the solar system that has a thick 
+   atmosphere. 
+  -Enceladus (one of Saturn's moons) has ice 
+   fountains. 
+
+ Uranus 
+  -Extreme axis tilt, almost rolling on its 
+   side. 
+  -The pale blue-green color is due to 
+   methane. 
+
+ Neptune 
+  -Similar to Uranus, except for axis tilt 
+   and more strikingly blue. 
+  -Very windy. 
+
+-------------------------------------------- 
+Terrestrial Planets vs. Jovian Planets 
+
+ -Size [Jovian > Terrestrial] 
+
+ -Mass [Jovian > Terrestrial] 
+
+ -Density [Terrestrial > Jovian] 
+
+ -Moons [Jovian > Terrestrial] 
+  (All Jovian planets have rings) 
+
+ -Orbital Period [Jovian > Terrestrial] 
+
+ -Rotation Period [Terrestrial > Jovian] 
+
+-------------------------------------------- 
+Inter-planet traveling and settling
+
+ Reasons for: 
+  -Explore new frontiers
+  -New resources/technology 
+  -Necessary for human survival 
+
+ Reasons against: 
+  -Should fix problems on Earth first 
+  -Not a top priority since there're more 
+   urgent needs on Earth 
+  -Could destroy other planets or endanger 
+   other potential lifeforms (microbial or 
+   not) on other planets 
+  -How to govern? Terrestrial dispute? 
+
+-------------------------------------------- 
+Volcanism 
+
+ -Volcanoes release gas (mostly water vapor, 
+  CO2, N2) 
+ -Water vapor condenses to form ocean. 
+ -Some CO2 dissolves in water and comes down 
+  with rain and gets locked in rocks. 
+
+-------------------------------------------- 
+Formation of the Solar System 
+
+ The Nebular Theory 
+  -According to the nebular theory, our 
+   solar system formed from a giant cloud of 
+   interstellar gas. (Nebula = Cloud) 
+  -Stars forming in other interstellar gas 
+   clouds, lending support to the nebular 
+   theory. 
+  -In the early universe, there were only 
+   very light elements, yet our solar system 
+   contains heavy elements. 
+
+-------------------------------------------- 
+Seeds of planets 
+
+ -In the surrounding disk, the material is 
+  too spread out for gravity alone to clump 
+  it together. 
+ -Small clumps (seeds) need to form first 
+
+Seeds are formed through condensation 
+(solid or liquid particles forming in a gas) 
+
+ -Different materials condense at different 
+  temperatures. 
+
+-------------------------------------------- 
+The stage was set for the birth of two types 
+of planets 
+
+ Terrestrial planets - born from the solid 
+ seeds that contained only metals and rock, 
+ in the inner region. 
+
+ Jovian planets - born from the solid seeds 
+ that contained metals, rock, and hydrogen 
+ compounds. 
+
+-------------------------------------------- 
+Formation of Terrestrial Planets 
+
+ Accretion: 
+  small seeds -> larger pieces 
+  "planetesimals" -> full fledged planets 
+
+ Terrestrial planets are small due to 
+ limited metal and rock available in the 
+ nebula. 
+
+-------------------------------------------- 
+Formation of Jovian Planets 
+
+ -In contrast with terrestrial planets, 
+  Jovian planets had larger planetesimals 
+  (due to hydrogen compounds in addition to 
+  metals and rock). Therefore could capture 
+  some of the H and He gas. 
+ -Eventually the Jovian planets accreted so 
+  much gas that they bore so little 
+  resemblance of the hydrogen compound (icy) 
+  seeds they grew from. 
+
+-------------------------------------------- 
+The End of Planet Formation Era 
+
+ -The majority of the H and He gas never 
+  became part of any planet. 
+ -They were cleared away by the high energy 
+  radiation (UV and X-ray) and charged 
+  particles from the Sun. 
+
+If the gas had remained longer... 
+
+ -The gas might have continued to cool 
+ -Hydrogen compounds could have condensed in 
+  the inner region 
+ -Terrestrial planets would have accreted 
+  some icy hydrogen compounds, changing its 
+  nature. 
+
+-------------------------------------------- 
+Accretion 
+
+ -Terrestrial planets are small due to 
+  limited metal and rock available in the 
+  nebula. 
+
+ -Jovian planets have larger planetesimals 
+  (due to hydrogen compounds in addition to 
+  metals and rock), therefore can capture 
+  some of the H and He gas. 
+
+-------------------------------------------- 
+Where did asteroids and comets come from? 
+
+ -Leftovers from the accretion process. 
+  (Rocky asteroids inside frost line) 
+  (Icy comets outside frost line) 
+
+Why is there an asteroid belt between Mars 
+and Jupiter? 
+
+ -Periodic nudge from the giant Jupiter 
+
+Why did comets end up in Kuiper Belt and 
+Oort Cloud? 
+
+ Oort Cloud: 
+  -Comets on random orbits extending to 
+   about 50,000 AU 
+
+ Kuiper Belt: 
+  -Comets on orderly orbits at 30-100 AU in 
+   disk of solar system 
+
+-------------------------------------------- 
+Asteroids and Comets Must have Collided with 
+Planets 
+
+ -Heavy Bombardment 
+ -Bombardment may have brought water to 
+  Earth 
+
+-------------------------------------------- 
+How do we explain "exceptions to the rules?" 
+
+ -Uranus's odd tilt 
+ -Earth's relatively large moon 
+
+Giant impacts might also explain the 
+different rotation axes of some planets. 
+
+-------------------------------------------- 
+Captured Moons 
+
+ -Moons formed in the disk of Jovian planets 
+  will orbit in the plane and in the same 
+  direction as the rotation of the planet. 
+
+ -Those that are not in the plane or 
+  rotating the opposite way are probably 
+  captured leftover planetesimals. 
+
+ -The two SMALL moons of the terrestrial 
+  planet Mars are probably captured as 
+  well. 
+
+-------------------------------------------- 
+Was our own Moon captured by Earth? 
+
+ -Not likely, because our Moon is too large 
+  for a small planet like Earth to capture 
+  it. 
+
+Did our Moon form at the same time alongside 
+Earth? 
+
+ -Not likely, from the composition 
+  difference. 
+
+-------------------------------------------- 
+Summary of the Nebula Theory of Solar 
+System Formation 
+
+ Contraction of Solar Nebula -> Condensation 
+ of Solid Particles -> Accretion of 
+ Planetesimals -> Clearing the Nebula 
+
+-------------------------------------------- 
+How do we know the age of the solar system? 
+
+ -We cannot find the age of a planet 
+  directly, but we can find the ages of its 
+  rocks. 
+
+-------------------------------------------- 
+Dating Rocks 
+
+ -The age of a rock is the time since its 
+  locked together in their present 
+  arrangement (the rock last solidified). 
+
+ -We measure a rock's age through a method 
+  called "radiometric dating." 
+
+ -It relies on the measurement of the 
+  proportions of various atoms and isotopes 
+  in the rock. 
+
+-------------------------------------------- 
+Radioactive Isotope (For age of Solar Sys.) 
+
+ -The nucleus of a radioactive isotope 
+  spontaneously decay (Potassium -> Argon) 
+
+ -The decay rate is described using half 
+  life -- the time it takes for half of the 
+  nuclei in a sample to decay. 
+
+Radioactive Decay 
+
+ N(t) = N_0(1/2)^(t/t_half) 
+
+Solve for t: [t = the following: ]
+
+t_half(log(current amount/original amount)
+------------------------------------------
+                 log(1/2)
+
+-------------------------------------------- 
+Dating the Solar System <3
+
+ -Age dating tells you the time since the 
+  rock solidified, but not all rocks formed 
+  at the same time. 
+
+ -The oldest rock from Earth is about 4 
+  billion years old, i.e. the solar system 
+  must be older than that. 
+
+ -In order to find the age of the solar 
+  system, we have to find rocks that have 
+  not melted or vaporized since they first 
+  formed in the solar nebula. 
+
+ -Many meteorites that fell on Earth appear 
+  to be unchanged since they condensed and 
+  accreted in the early solar system. 
+  Analysis of those meteorites tells us the 
+  oldest formation time is about 4.56billion 
+  years ago. 
+
+  ==> That's the beginning of the accretion 
+  in the solar system, and since planets 
+  accreted within about 0.05 billion years, 
+  the age of the planets is about 4.5billion 
+  years. 
+
+-------------------------------------------- 
+Dwarf Planets 
+
+ -Orbit the sun 
+ -Massive enough to be roughly spherical 
+
+-------------------------------------------- 
+Pluto 
+
+ -Discovered in 1930 through motion against 
+  background stars. 
+ -Not much was known about it until the 
+  mission New Horizons. 
+
+-------------------------------------------- 
+Asteroids 
+
+ -Rocky debris larger than ~10 m 
+  (Smaller ones are "meteoroids") 
+
+Ceres 
+
+ -The largest asteroid (dwarf planet) 
+
+Smaller asteroids are not round 
+
+Asteroids rotate 
+ -Typical -10 hours 
+ -Fastest discovered so far ~25 seconds 
+
+Some asteroids have their own moons 
+
+Some asteroids come to us as Meteorites 
+
+-------------------------------------------- 
+Dinosaur Extinction 
+
+ -No dinosaur fossils in upper rock layers 
+
+ -Thin layer containing the rare element 
+  iridium 
+
+ -Dinosaur fossils in lower rock layers 
+
+-------------------------------------------- 
+Comets 
+
+ -Dirty snowballs from outer solar system 
+ 
+ -Long-period comets (tens of thousands to 
+  millions of yrs) can get trapped and 
+  become short-period (<200 yrs) comet in 
+  the inner solar system. 
+
+-------------------------------------------- 
+The anatomy of a comet 
+
+ -Nucleus, Coma, Hydrogen Envelope, Tails 
+
+ -Invisible to human eyes, the hydrogen 
+  envelope can be huge. 
+
+ -Tails are away from the Sun, regardless of 
+  which way the comet is going. 
+
+-------------------------------------------- 
+Comets don't last forever 
+
+ -60 to 100 passages by the Sun (perihelion) 
+ -Can be torn apart by tidal force 
+ -Can be destroyed during collision 
+
+-------------------------------------------- 
+
+<<<<<<<<<<<<Extrasolar Planets>>>>>>>>>>>>>> 
+
+-------------------------------------------- 
+Direct detection 
+
+ -Seeing the planets directly 
+
+Indirect detection 
+
+ -Inferring its existence 
+ -Gravitational tugs 
+ Astrometry 
+  -Detecting wobbling of stars in the image 
+
+ -Radial velocity (Doppler effect) 
+  [Starlight with respect to Earth is 
+   redshifted or blueshifted] 
+
+    -Periodic variation in the star's 
+     orbital speed tells us that it has an 
+     unseen planet. 
+
+    -The velocity change gives us the star's 
+     orbital speed, which tells us the 
+     planet's mass. 
+
+    (Can calculate average orbital distance 
+     of this star-planet and can estimate 
+     minimum mass of this planet) 
+
+50 -
+   |                     ___
+   |.                    .|.
+   | .                 .  |  .
+   |  .               .   |   .
+ 0 -   .             .    |    .
+   |    .           .     |     .
+   |     .         .      |      .
+   |       .     .        |        .
+   |         . .         ---         . .
+-50-           |-----------------------|
+   |
+   |
+   | 
+   | 
+-100    
+
+[Y-axis: velocity | X-axis: time] 
+
+-------------------------------------------- 
+
+<<<<<<<<<<<<<<<< Our Star >>>>>>>>>>>>>>>>>> 
+
+-------------------------------------------- 
+The Solar Atmosphere 
+
+ Photosphere 
+  -Lowest layer of the Sun's atmosphere 
+  -Emits most of the Sun's visible light 
+   (T ~ 5800 K) 
+
+ Chromosphere 
+  -Above photosphere 
+  -Less dense 
+
+ Corona 
+  -Outermost layer of the atmosphere 
+  -Extremely hot (T ~ 1 million K) but very 
+   diffuse 
+
+-------------------------------------------- 
+Solar Activities 
+
+ Sunspots: 
+  -Only look dark because they are cooler 
+   compared to the surroundings. 
+  -Sunspot can tell us about Sun's rotation. 
+
+-------------------------------------------- 
+Sunspots are linked to magnetic field 
+
+ -Outside the sunspot, the magnetic field 
+  is weak and this iron absorption line is 
+  single. 
+
+ -Within the sunspot, the magnetic field is 
+  strong and this iron absorption line 
+  splits into three. 
+
+Sunspots appear in pairs and groups 
+
+ -Polarity reverses every max/min cycle 
+  ==> solar cycle is 2x11 yr = 22 yr 
+
+-------------------------------------------- 
+Prominences 
+
+ -The solar magnetic fields extend high 
+  into the chromosphere and corona. 
+
+ -Ionized gas trapped in magnetic field 
+  rises up through photosphere and 
+  chromosphere. 
+
+-------------------------------------------- 
+Solar flares 
+
+ -Due to change in magnetic field bursts of 
+  UV, X rays photons and charged particles 
+  are emitted. 
+
+-------------------------------------------- 
+Coronal Mass Ejection 
+
+ -Large volumes of high-energy gas are 
+  released from corona. 
+
+ -Photons from these ejections can reach 
+  Earth in ~8 mins. 
+
+ -High energy particles in these ejections 
+  can reach Earth in a couple of days. 
+
+-------------------------------------------- 
+Why does the Sun shine? (Energy source) 
+
+ -In the late 19th century, astronomers 
+  came up with the idea that the energy 
+  output is due to gravitational 
+  contraction. (misproven due to this 
+  giving the Sun an age of only 25 million 
+  years) 
+
+ -Einstein's famous equation E = mc^2 
+
+ -By the end of the 1930s, scientists 
+  figured out the Sun converts mass into 
+  energy through NUCLEAR FUSION. 
+
+-------------------------------------------- 
+For nuclear fusion to start in the Sun 
+
+ -Need extremely high temperature and 
+  density 
+
+ -The temperature and density is high 
+  enough to trigger fusion in the core of 
+  the Sun. 
+
+-------------------------------------------- 
+How did the core get to that condition? 
+
+ -The gravitational contraction of the 
+  initial nebular gas cloud raised 
+  temperature and pressure until the core 
+  finally became hot enough to sustain 
+  nuclear fusion. 
+
+-------------------------------------------- 
+Hydrogen Fusion in the Sun (>10 million K) 
+
+ -proton-proton chain 
+
+ P P  ==>  N P N + neutrinos + photon energy 
+ P P         N
+
+-------------------------------------------- 
+Example Nuclear Fusion Calculation: 
+
+The current power output of the Sun is 
+3.9e26 watt (J/s). How much H (in kg) is 
+being fused into He EVERY SECOND? 
+
+[
+
+Mass of 4 H atoms = 6.693e-27 kg 
+Mass of 1 He atom = 6.645e-27 kg 
+
+Mass lost = 0.048e-27 kg 
+
+Mass loss/Mass of 4 H 
+= 0.048/6.694 = 0.7%
+
+Energy per reaction: 
+
+ E = mc^2 = (0.048e-27)(3e8)^2 = 4.3e-12 J 
+
+Number of reactions: 
+
+ (3.9e26)/(4.3e-12) 
+
+Mass consumed: 
+
+ (3.9e26/4.3e-12)*6.693e-27 = 6.1e11 kg
+
+FINAL ANS: 
+
+ That’s 610 million tons, weight of ~2 
+ empire state buildings. 
+ (Only ~0.7% of it turned into energy.) 
+
+-------------------------------------------- 
+How does the energy generated from fusion 
+in the core get out of the Sun? 
+
+ -Neutrinos escape right away. 
+
+ -But, the energy in photons take hundreds 
+  of years to get to the surface and 
+  radiate away as "sunlight." 
+
+ -Once reaching the photosphere (where gas 
+  density is low enough), energy radiates 
+  away to space. 
+
+-------------------------------------------- 
+The Stable Sun 
+
+ The Sun shines steadily today because of 
+ two balances: 
+
+  -Gravitational (hydrostatic) equilibrium 
+  -Energy balance 
+
+-------------------------------------------- 
+Gravitational (hydrostatic) equilibrium 
+
+ -The downward pull of gravity and upward 
+  push from internal pressure is balanced. 
+
+-------------------------------------------- 
+Energy Balance 
+
+ -The rate at which fusion releases energy 
+  in the Sun's core and the rate at which 
+  the Sun's surface radiates energy into 
+  space is balanced. 
+
+-------------------------------------------- 
+Example Question: 
+
+What would happen inside the Sun if for 
+some reason there is a slight rise in core 
+temperature leading to a rapid rise in 
+fusion energy? 
+
+ANSWER: 
+
+The core would expand and cool. 
+
+-------------------------------------------- 
+Decline in core temperature 
+causes fusion rate to drop, so 
+core contracts and heats up.
+
+Rise in core temperature causes 
+fusion rate to rise, so core 
+expands and cools down. 
+
+ -Because of this adjustment, fusion rate 
+  and temperature are kept steady. 
+
+-------------------------------------------- 
+What is Luminosity? 
+
+ Stefan-Boltzmann law: 
+
+  P = oT^4 
+
+  P is the emitted power per square meter 
+  of surface, T is temperature in Kelvin. 
+
+  o = 5.7e-8 Watt/(m^2 x K^4) 
+
+
+ Luminosity: 
+
+  Total power output from a star 
+  (i.e. total energy per second) 
+
+  L = surface area x P 
+    = 4piR^2 x P 
+    = [4piR^2][oT^4] 
+
+  R is the radius of the star 
+
+-------------------------------------------- 
+Luminosity depends on both temperature and 
+surface area of the object. 
+
+It is an intrinsic property. 
+
+ -Only a fraction of the light emitted will 
+  be received. 
+
+ -Distance dependent 
+
+-------------------------------------------- 
+Apparent Brightness 
+
+ -Amount of power received per unit area on 
+  Earth. 
+
+-------------------------------------------- 
+Inverse Square Law for Light 
+
+ -The same amount of starlight passes 
+  through each sphere. 
+
+ -The surface area of a sphere depends on 
+  the square of its radius (distance from 
+  the star), so the amount of light passing 
+  through each unit of area depends on the 
+  inverse square of distance from the star. 
+
+ -Area of sphere: 4pi(radius)^2 
+  (The radius of the sphere is the distance 
+   to Earth). 
+
+-------------------------------------------- 
+Apparent Brightness and Luminosity 
+
+ Appar. Brightness = Lumin./4pi(distance)^2
+
+ L = 4pi x d^2 x b 
+
+-------------------------------------------- 
+Example question: 
+
+How would the apparent brightness of 
+Proxima Centauri change if it were three 
+times farther away? 
+
+ANSWER: 
+
+It would be only 1/9 as bright. 
+
+-------------------------------------------- 
+Example question: 
+
+Considering the following two stars. Star 
+A has a radius one quarter that of Star B. 
+Star A’s temperature is twice that of Star 
+B. What’s the ratio of their luminosity? 
+
+ANSWER: 
+
+LA/LB=1 
+
+-------------------------------------------- 
+Spectral Types 
+
+O B A F G K M 
+
+Hottest (> 33,000 K) -> Coolest (< 3,700 K) 
