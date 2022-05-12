@@ -75,6 +75,11 @@ comfortably warm.
 ANS: Not due to its tilt, but only its 
 orbit
 
+[Uranus has 4 appreciable seasons and they 
+are extremely long, due to the fact that the 
+axis of the tilt is 98 degrees, with respect 
+to the north direction.]  
+
 During winter, the poles are pointed away 
 from the sun. During summer, the sun shines 
 directly facing the poles. These seasons 
@@ -118,27 +123,14 @@ planets around other stars?
 ANS: Radial velocity, gravitational 
 microlensing 
 
-The vast majority of planets around other 
-stars have been found through the transit 
-method so far. This technique involves 
-monitoring the amount of light that a star 
-gives off over time, and looking for dips 
-in brightness that may indicate an orbiting 
-planet passing in front of the star. 
+The first method is Doppler effect method, 
+which measures the speed of a star, either 
+toward or away from us. 
 
-NASA has two specialized exoplanet-hunting 
-telescopes scanning the sky for new planets 
-right now -- Kepler and the Transiting 
-Exoplanet Survey Satellite (TESS) -- and 
-they both work this way. Other methods of 
-finding exoplanets include radial velocity 
-(looking for a “wobble” in a star's 
-position caused by a planet’s gravity), 
-direct imaging (blocking the light of the 
-star to see the planet) and microlensing 
-(watching for events where a star passes in 
-front of another star, and the gravity of 
-the first star acts as a lens). 
+The second method is more indirect, is based 
+on the slight dimming of a star when one of 
+its planet's crosses over the face of the 
+star. 
 
 --------------------------------------------
 
@@ -179,6 +171,16 @@ and that decay with half lives of 700
 million to more than 100 billion years to 
 stable isotopes of other elements. 
 
+[
+- One way to estimate the age of a planet 
+is by counting the number of impact 
+craters. 
+
+- The best method is to measure the age of 
+the individual rocks using radioactivity 
+(radioactive decay).
+] 
+
 --------------------------------------------
 
 9. How does the age of Earth compare with 
@@ -201,21 +203,13 @@ remnants of older stars?
 ANS: Heavier elements are in newer solar 
 systems 
 
-The presence of the heavier elements in 
-our solar system tells us that the solar 
-system was formed from the remnants of older 
-stars. All the elements which are heavier 
-than nickel are formed in a supernova 
-explosion. Hence, the presence of the heavier 
-elements shows that supernova did happened 
-before the beginning of the solar system. 
-The supernova happens when star dies and 
-goes out into big explosion. Also, the 
-presence of certain isotopes of different 
-element shows that certain material were 
-injected by the supernova that lead to the 
-change in the number of neutrons in the 
-nucleus of certain elements. 
+Milky way was younger, did not contain many 
+heavy elements like iron. However, star 
+Kepler-444 formed when the Milky Way was 2 
+billions old. heavier elements that were 
+needed for planets to form were available 
+then. supernova, which allowed the heavy 
+elements to disperse (solar system) forms. 
 
 --------------------------------------------
 
@@ -227,12 +221,18 @@ ANS: The magnetism flips every 11 years;
 indicated by a rise in sunspots
 
 The 11-year sunspot cycle is actually half 
-of a longer, 22-year cycle of solar activity. 
-Each time the sunspot count rises and falls, 
-the magnetic field of the Sun associated with 
-sunspots reverses polarity; the orientation 
-of magnetic fields in the Sun's northern and 
-southern hemispheres switch. 
+of a longer, 22-year cycle of solar 
+activity. Each time the sunspot count rises 
+and falls, the magnetic field of the Sun 
+associated with sunspots reverses polarity; 
+the orientation of magnetic fields in the 
+Sun's northern and southern hemispheres 
+switch. 
+
+[The solar cycle is a 11 year periodic 
+cycle, which occurs when the Sun's magnetic 
+field reverses polarity, and it is measured 
+by the number of sunspots.] 
 
 --------------------------------------------
 
@@ -250,6 +250,15 @@ The coming reversal will mark the midpoint
 of Solar Cycle 24. Half of "solar max" will 
 be behind us, with half yet to come. 
 
+[Sunspots are in pairs, the leading spot of 
+pairs in the Northern Hemisphere all had the 
+same magnetic polarity, and the leading 
+spot of pairs in the Southern Hemisphere 
+all have opposite magnetic polarity. In the 
+next solar cycle, the polarity of the 
+leading spots in each hemisphere is 
+reversed.] 
+
 --------------------------------------------
 
 13. How do we know there is strong magnetic 
@@ -264,6 +273,10 @@ we can directly observe the effect that the
 field has on the spectral lines we observe 
 through a phenomenon called the Zeeman 
 effect. 
+
+[Spectral lines which measured on sunspots 
+are split which indicated that there is a 
+strong magnetic field.] 
 
 --------------------------------------------
 
@@ -296,6 +309,12 @@ within their cores. The rate at which they
 do this and the amount of fuel available 
 depends upon the mass of the star. 
 
+[Main sequence stars spend 90% of its life 
+fusing hydrogen in its core into helium. 
+Large stars have large nuclear fusions, 
+and they shine with greatest luminosity/
+surface temperatures.] 
+
 --------------------------------------------
 
 16. What is the spectral class of the Sun, 
@@ -320,17 +339,25 @@ cluster different from a young one?
 ANS: Young clusters include hotter, bluer, 
 more powerful stars 
 
-When a cluster is young, the brightest 
-members are O, B and A stars. Young clusters 
-in our Galaxy are called open clusters due 
-to their loose appearance. They usually 
-contain between 100 and 1,000 members. 
+Young Clusters (within the span of 3 
+million years) : i. massive stars evolve 
+faster than less massive stars. After 
+reaching the main sequence, and using up the 
+hydrogen in their core, massive stars become 
+red giants. As time passes for less massive 
+stars, they begin to steer off the main 
+sequence and move to the upper right side of 
+the H-R diagram. 
 
-Early in the formation of our Galaxy, very 
-large, globular clusters formed from giant 
-molecular clouds. Each contain over 10,000 
-members, appear very compact and have the 
-oldest stars in the Universe. 
+For H.R Diagrams of Older Clusters (after 4 
+billion years): i. The oldest clusters out 
+of all are the globular clusters. Most 
+stars, leave the main sequence; and on low 
+mass stars remain at the bottom of the main 
+sequence. The older the cluster, the lower 
+the point is on the main sequence where 
+stars begin to head towards the red giant 
+region. 
 
 --------------------------------------------
 
@@ -360,6 +387,13 @@ the evolution of a star that is between .07
 and 1.4 solar masses. Supported by electron 
 degeneracy 
 
+Stars/Matter is subjected to very high 
+pressure and temperature, it condenses to 
+an extent where electrons can no longer 
+condense any further. Therefore, degeneracy 
+pressure of the electrons prevents the white 
+dwarfs from collapsing. 
+
 --------------------------------------------
 
 20. What is the maximum mass of a white 
@@ -386,7 +420,7 @@ about 10km
 22. Why do neutron stars rotate so quickly?
 --------------------------------------------
 
-ANS: Angular momentum 
+ANS: Conservation of Angular momentum 
 
 Neutron stars rotate extremely rapidly 
 after their formation due to the 
@@ -427,13 +461,10 @@ ANS: No - not large enough
 
 ANS: The edge of a black hole 
 
-In astrophysics, an event horizon is a 
-boundary beyond which events cannot affect 
-an observer. Wolfgang Rindler coined the 
-term in the 1950s. In 1784, John Michell 
-proposed that gravity can be strong enough 
-in the vicinity of massive compact objects 
-that even light cannot escape. 
+the outer boundary of a black hole, where 
+escape velocity is speed of light, and an 
+object can no longer interact with the of 
+the universe. 
 
 --------------------------------------------
 
@@ -459,7 +490,8 @@ star
 
 A supernova is what happens when a star has 
 reached the end of its life and explodes in 
-a brilliant burst of light. 
+a brilliant burst of light (For a short 
+period of time). 
 
 --------------------------------------------
 
@@ -472,13 +504,10 @@ ANS: Type I is a binary star system with a
 white dwarf that steals matter from its 
 partner. Type II leaves a neutron star
 
-As the earth spins on its axis, producing 
-night and day, it also moves about the sun 
-in an elliptical (elongated circle) orbit 
-that requires about 365 1/4 days to 
-complete. The earth's spin axis is tilted 
-with respect to its orbital plane. This is 
-what causes the seasons. 
+[Type I supernovae does not have hydrogen 
+absorption lines in their spectrum whereas 
+Type II supernovae has hydrogen absorption 
+lines in their spectrum.] 
 
 --------------------------------------------
 
@@ -487,7 +516,7 @@ described above is useful for the distance
 determination, and why? 
 --------------------------------------------
 
-ANS: Type II are more luminous 
+ANS: Type I are more luminous (brighter) 
 
 --------------------------------------------
 
@@ -505,3 +534,291 @@ which means that astronomers look for objects
 located within the target for which they 
 believe they know the intrinsic luminosity 
 (how bright it actually is). 
+
+[Standard candle method or the Cepheid 
+variables --> Hubble measured the distance 
+to the Andromeda galaxy using this, which 
+measures distance in our galaxy and nearby 
+galaxies.] 
+
+--------------------------------------------
+
+31. Sketch the major components of the 
+structure of the Milky Way and indicate the 
+position of the solar system. 
+--------------------------------------------
+
+Galaxy Viewed Face-On (Swirl): 
+
+        . . .
+     ..       ..
+   .      ..     .
+  .     .    .    .
+ .     .   .. .   .
+ .     .    ..   .
+ .      .       .
+  .       . . .
+   .
+     .
+
+Galaxy Viewed Edge-On (Side View): 
+[Central Plane of Galaxy]
+
+           .
+           .
+          ...
+          ...
+          ... 
+         .....
+        .     .
+         .....
+          ...
+          ...
+          ...
+           .
+           . 
+
+Galaxy's Apparent Shape: 
+[0 = Earth] 
+
+          ...
+        .     .
+       .  ...  .
+      .  .   .  .
+      . .  0  . .
+      . .     . .
+      . .     . .
+      .  .   .  .
+       .  ...  .
+        .     .
+          ... 
+
+Motion of the elliptical galaxies are
+predominantly radial. Spiral galaxies 
+rotate with spiral arms trailing 
+
+--------------------------------------------
+
+32. What are the two main morphological 
+types of galaxies, and what is the 
+difference in their rotation patterns? 
+--------------------------------------------
+
+- Spiral galaxies, the stars and emission 
+nebulae make the spiral arms stand out like 
+a pinwheel.
+
+- For elliptical galaxies, their rotation 
+has a radial motion in a sense where they 
+don't rotate systematically like spiral 
+galaxies do (looks like star light center) 
+
+--------------------------------------------
+
+33. What is the difference between the two 
+galaxy types you described above regarding 
+the color? 
+--------------------------------------------
+
+Elliptical (red and yellow) 
+
+Spiral (blue) 
+
+--------------------------------------------
+
+34. What is the main difference between the 
+same two galaxy types above regarding the 
+age of stars? 35. Are the last two 
+questions related in any way?
+--------------------------------------------
+
+- Spiral galaxies consist of a mixture of 
+young and old stars. The young stars are 
+present in the spiral arms, which indicates 
+that new star formation is happening. 
+
+- Elliptical galaxies consist mostly old 
+stars with shapes that are spheres or 
+ellipsoids. 
+
+--------------------------------------------
+
+36. Hubble's law says that _____ 
+--------------------------------------------
+
+ANS: Galaxies further from us are moving 
+faster away... V = H (constant)*d 
+
+Galaxies are moving away from the Earth at 
+speeds proportional to their distance. In 
+other words, the farther they are the faster 
+they are moving away from Earth. 
+
+--------------------------------------------
+
+37. How can the radial velocity of stars 
+and galaxies be measured? 
+--------------------------------------------
+
+To measure the radial velocity, you obtain 
+a spectrum of the star and you measure the 
+wavelength of a number of spectrum lines. 
+
+Using the Doppler shift of the star's 
+spectrum, astronomers can measure the 
+radial velocity. It measures by wavelengths 
+of absorption lines in its spectrum. 
+
+--------------------------------------------
+
+38. Describe the cosmic distance ladder. 
+--------------------------------------------
+
+Measure vast distances... For example, 
+once astronomers measure the distance to a 
+galaxy using one rung, they can then 
+measure the distance using the next rung 
+and match the two. 
+
+--------------------------------------------
+
+39. Naively interpreting Hubble's law, one 
+may conclude that we are in the center of 
+the expansion, and therefore in the center 
+of the Universe. Is that so? Explain. 
+--------------------------------------------
+
+Galaxies are expanding in space and space 
+expanding, which doesn't place us in the 
+center of the Universe. It's also possible 
+that the Universe doesn't have a center, 
+since literally all objects are moving away 
+from other objects. 
+
+--------------------------------------------
+
+40. If you were to apply Kepler's third law 
+to the stars orbiting in the Galactic disk 
+and halo (naively assuming that most mass 
+resides in the visible stars), sketch out 
+how approximately the velocity vs. distance 
+from the center curve would look like. 
+
+41. What does the actually observed orbital 
+speed vs. distance curve look like? Is it 
+different from what's expected from 
+Keplerian behavior? If so, why? 
+--------------------------------------------
+
+Observed: 
+
+Velocity 
+|
+|        ..
+|      .    .     ...........
+|     .       ...            ...
+|    .         
+|   .
+|  .
+|  .
+|  .
+| .
+|.
+ --------------------------------- Distance 
+
+Prediction: 
+
+Velocity 
+|
+|        ..
+|      .    .    
+|     .      . 
+|    .         .
+|   .
+|  .              .
+|  .                .
+|  .
+| .                    .         .
+|.                         ....
+ --------------------------------- Distance 
+
+Mass is supposed to decrease, but it does 
+not when observed. 
+
+--------------------------------------------
+
+42. Why do we think there is such a thing 
+as dark matter? 
+--------------------------------------------
+
+Scientists are confident it exists because 
+of the gravitational effects it appears to 
+have on galaxies and galaxy clusters. 
+
+Dark matter does not emit or absorb light. 
+It is still hard to even detect what it is 
+made of. 
+
+--------------------------------------------
+
+43. What is the cosmic microwave background 
+(CMB)? 
+--------------------------------------------
+
+CMB is a radiation that is a remnant from 
+the Big Bang and that fills the entire 
+Universe. 
+
+--------------------------------------------
+
+44. What significant event after the Big 
+Bang is related to the appearance of the 
+CMB? 
+--------------------------------------------
+
+The fusion of helium and lithium happened 
+4 minutes after the Universe was born and 
+the first nuclei were born. 
+
+The cosmic microwave background (CMB), 
+is radiation that fills the universe and 
+can be detected in every direction. 
+Microwaves are invisible to the naked eye 
+so that cannot be seen without instruments. 
+It created shortly after the universe came 
+into being in the Big Bang, the CMB 
+represents the earliest radiation that can 
+be detected. 
+
+--------------------------------------------
+
+45. Was the CMB always radiating in the 
+microwave part of the spectrum? 
+--------------------------------------------
+
+It's possible at one point the CMB was 
+radiating in the infrared part of the 
+spectrum....The original temperature was 
+10^7 K when CMB was emitted. the temperature 
+dropped to 3000 K. According to Wien's law 
+that correlates wavelength and temperature, 
+the expansion lowered the temperature by a 
+factor of 1000. 
+
+--------------------------------------------
+
+46. What is cosmic inflation, and what are 
+the problems that inflation resolves? 
+--------------------------------------------
+
+- Expansion of the early universe that was 
+faster than light led to the creation of 
+universe. 
+
+- There was enough time for the universe to 
+reach the same temperature it is today and 
+expand all regions. 
+
+- Another thing it solves is that the 
+Universe's density should equal to critical 
+density. 
