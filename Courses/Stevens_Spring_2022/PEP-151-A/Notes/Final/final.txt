@@ -1,995 +1,507 @@
-<<<<<<<<<<<<<<<<<Homework 3>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<Final Questions>>>>>>>>>>>>>>>
 
 --------------------------------------------
 
-Problem 1 (2 points).
+1. Why do we have seasons?
 --------------------------------------------
-Sirius is the brightest star in the night 
-sky. It has a surface temperature of T=9940K. 
 
-a) At what wavelength (in nm) is its 
-radiation the most intense? Which part of 
-the electromagnetic spectrum does that 
-correspond to? 
+ANS: The tilt of the Earth's axis 
 
-[[ 
-
-Blackbody radiation: 
-
-l = (2.898E6)/T = (2.898E6)/(9940) = 292 nm 
-
-This falls in the UV range 
-
-]];
-
-b) Given that the radius of Sirius is 1.71 
-times the radius of the Sun, and the Sun's 
-surface temperature is 5777K, what is the 
-ratio of their luminosities Lsirius/Lsun? [[ 
-
-Tsirius = 9940K       Tsun = 5777K 
-
-Rsirius = 1.71[Rsun] 
-
-L = R x T^4 
-
- Lsirius    ([1.71Rsun]^2 x 9940^4)
--------- = ------------------------ = 25.6 
-   Lsun        (Rsun^2 x 5777^4)
-
-]];
-
+As the earth spins on its axis, producing 
+night and day, it also moves about the sun 
+in an elliptical (elongated circle) orbit 
+that requires about 365 1/4 days to 
+complete. The earth's spin axis is tilted 
+with respect to its orbital plane. This is 
+what causes the seasons. 
 
 --------------------------------------------
 
-Problem 2 (2 points).
+2. How does the eccentricity of the Earth’s 
+orbit affect the seasons?
 --------------------------------------------
-This problem is about stellar parallax. Feel 
-free to review the relevant lecture slides. 
 
-a) From Earth (with the standard baseline of 
-1 AU), if we observe the parallax angle of 
-Vega to be 0.13 arcseconds, what is the 
-distance to Vega in parsecs? What is that 
-distance in light years?  
-[[ 
+ANS: Seasons last slightly shorter/longer 
+in different hemispheres
 
-Stellar Parallax: 
+Eccentricity is the reason why our seasons 
+are slightly different lengths, with summers 
+in the Northern Hemisphere currently about 
+4.5 days longer than winters, and springs 
+about three days longer than autumns. As 
+eccentricity decreases, the length of our 
+seasons gradually evens out. 
 
-d = 1/p 
-where 
-d = distance in parsecs 
-p = parallax angle in arcseconds 
-
-d = 1/(0.13) = 7.69 parsecs 
-
-1 parsec = 3.26 light years 
-
-d = 7.69*3.26 = 25.07 light years 
-
-]]; 
-
-b) If through some other method we know that 
-the distance to Arcturus is 36.7 light years, 
-what do you expect its parallax angle (in 
-arcseconds) to be, as observed from Earth 
-(with the standard 1AU baseline)? 
-
-[[ 
-
-Given a distance of 36.7 light years, we 
-can find the distance in parsecs: 
-
-d_parsecs = (36.7)/(3.26) = 11.25 parsecs 
-
-d = 1/p, p = 1/d 
-
-p = 1/d = 1/(11.25) = 0.089 arcseconds 
-
-]];  
-
+Orbital mechanics require that the duration 
+of the seasons be proportional to the area 
+of Earth's orbit swept between the 
+solstices and equinoxes, so when the 
+orbital eccentricity is extreme,
+[The seasons that occur on the far side of 
+the orbit (aphelion) can be substantially 
+longer in duration]
 
 --------------------------------------------
 
-<<<<<<<<<<<<<<<<  Notes  >>>>>>>>>>>>>>>>>>
-
+3. Are there any appreciable seasons on 
+Jupiter – and why?
 --------------------------------------------
-Two types of blackbody radiation: 
 
-Stefan-Boltzmann law (Law 1): 
+ANS: No - it doesn't have a large tilt
 
-P = oT^4 (power per m^2) and o = 5.7E-8 
+Jupiter does not have changing seasons like 
+the Earth, but instead is believed to have 
+a constantly stormy atmosphere. This is 
+partly due to its tilt, which is only 3 
+degrees. The planet has a very turbulent 
+atmosphere and is believed to have a lot 
+of long-term storms. Its core is even 
+hotter than the sun! 
 
-Wien's law (Law 2): 
-
-l_max (In nm) = (2900000)/(T in Kelvin) 
-
--------------------------------------------- 
-Why do we need telescopes? 
-
- -Light-collecting power (more light) 
- -Angular resolution (more details) 
- -Other wavelength beyond visible light 
-
-Types of telescopes: 
-
- -Refracting telescopes (use lenses) 
- -Reflecting telescopes (use mirrors) 
-
--------------------------------------------- 
-Refracting Telescope vs Reflecting Telescope 
-
- -Mechanical issues 
- -Chromatic aberration 
- -Spherical aberration (blurry) 
-
--------------------------------------------- 
-Light-collecting Power
-
-A = (pi)*(r^2) = (pi)*[(D^2)/4] (Area) 
-
- Types of Mirrors: 
-  -Floppy Mirror 
-  -Segmented Mirror 
-
- -Largest optical telescope so far ~10 m
- -Larger ones ~30 m are under construction 
-
--------------------------------------------- 
-Angular Resolution 
-
- -Diffraction limited minimum angular 
-  separation in the sky that can be resolved: 
-
-  0_min (theta in radians) = 1.22(lambda/D) 
-
-  0_min (in arcseconds) = 2.5E5(lambda/D) 
-
- For largest optical telescope so far (~10m): 
-  -Visible light range, ~530nm : 0.01 arcsecs 
-  -For a radio wave, ~3m : ~20 degrees! 
-  (Need much bigger dish for radio observe) 
-  -Radio telescopes can be combined via 
-   interferometry 
-
---------------------------------------------
-Why do we put telescopes in space? 
-
- -Blurring due to Earth's atmosphere 
- -Atmospheric absorption 
-
-Improvements for ground-based telescopes 
- -Adaptive optics 
-
--------------------------------------------- 
-Infrared Observation 
- -Equipment needs to be cooled 
- -Low humidity (water vapor absorption) 
-
--------------------------------------------- 
-X-rays and Gamma rays are too energetic to 
-be focused by mirrors... 
-
---------------------------------------------
-Looking beyond light 
- -Neutrinos 
- -Cosmic rays (they're particles) 
- -Gravitational wave 
+Jupiter is a lot less tilted than the 
+Earth is - only 3 degrees! Add that to its 
+very long orbit, and you get seasons that 
+last THREE YEARS. But because of the gases 
+in its atmosphere, there can be different 
+seasons in different spots. Some clouds 
+are freezing, while other ones are 
+comfortably warm. 
 
 --------------------------------------------
 
-<<<<<<<<<<<<<<<Solar System>>>>>>>>>>>>>>>>>
+4. What About Uranus? 
+--------------------------------------------
 
--------------------------------------------- 
-Our solar system consists of a star, eight 
-planets and countless smaller bodies such as 
-dwarf planets, asteroids and comets. 
+ANS: Not due to its tilt, but only its 
+orbit
 
-[Mercury, Venus, Earth, Mars, Jupiter, 
- Saturn, Uranus, Neptune] 
+During winter, the poles are pointed away 
+from the sun. During summer, the sun shines 
+directly facing the poles. These seasons 
+last for 21 years each. In spring and fall, 
+the rotational axis is oriented in such a 
+way that the rays of the sun fall directly 
+on the equatorial region of the planet. 
 
-Planets are very tiny compared to the 
-distance in between them. 
+Uranus has a relatively circular orbit, so 
+it remains at about the same distance from 
+the Sun throughout its long year. But the 
+axis of Uranus is tilted by 98 degrees! 
+This causes 21-year-long seasons and 
+unusual weather, although one thing that 
+is certain: it is always cold. 
 
 --------------------------------------------
-Over 99.8% of solar system's mass is the Sun 
 
- -The surface looks solid in visible light, 
-  but it's a sea of hot gas (~5800K at 
-  surface, hotter inside) 
+5. Kepler’s third law states that ___
+--------------------------------------------
 
- -In the core the nuclear fusion converts 
-  4 million tons of mass into energy each 
-  second. 
+ANS: T^2=Kr^3 (the square of an orbit's 
+time is proportional to the cube of the 
+radius between the sun and the planet) 
 
--------------------------------------------- 
-Outer 4 planets: large gas-rich Jovian 
-planets 
+Kepler's Third Law: the squares of the 
+orbital periods of the planets are directly 
+proportional to the cubes of the semi-major 
+axes of their orbits. (p^2 = a^3) 
 
-Inner 4 planets: small rocky terrestrial 
-planets 
+Kepler's Third Law implies that the period 
+for a planet to orbit the Sun increases 
+rapidly with the radius of its orbit. 
 
 --------------------------------------------
-Patterns of Motion in the Solar System 
 
- -Nearly circular orbital patterns 
- -All planets except Venus and Uranus rotate 
-  counter clockwise 
- -Venus is slowly retrograde 
- -Uranus is almost rolling around its orbit 
+6. What methods can be used to discover 
+planets around other stars?
+--------------------------------------------
 
-Axis Tilt of Planets 
- -All planets have an axis tilt 
+ANS: Radial velocity, gravitational 
+microlensing 
+
+The vast majority of planets around other 
+stars have been found through the transit 
+method so far. This technique involves 
+monitoring the amount of light that a star 
+gives off over time, and looking for dips 
+in brightness that may indicate an orbiting 
+planet passing in front of the star. 
+
+NASA has two specialized exoplanet-hunting 
+telescopes scanning the sky for new planets 
+right now -- Kepler and the Transiting 
+Exoplanet Survey Satellite (TESS) -- and 
+they both work this way. Other methods of 
+finding exoplanets include radial velocity 
+(looking for a “wobble” in a star's 
+position caused by a planet’s gravity), 
+direct imaging (blocking the light of the 
+star to see the planet) and microlensing 
+(watching for events where a star passes in 
+front of another star, and the gravity of 
+the first star acts as a lens). 
 
 --------------------------------------------
-Terrestrial Planets 
 
- Mercury 
-  -Desolate, cratered, virtually no air 
+7. An astronomer from a distant star is 
+observing the Sun exactly in the orbital 
+plane of Jupiter (so that Jupiter crosses 
+the solar disk); plot schematically the 
+brightness of the Sun they would observe 
+during a 25 (Earth) years period.
+--------------------------------------------
 
- Venus 
-  -Surface hidden by thick clouds, thus not 
-   visible directly but can be mapped with 
-   radar 
-  -Extreme greenhouse effect baked it to 
-   hotter than pizza oven with no relief at 
-   night 
+Instensity
+|
+|
+|    ..      ..      ..
+|   .  .    .  .    .  .
+|  .    .  .    .  .    .
+| .      ..      ..      .
+|______12______24______36__ Time (Years) 
 
- Earth 
-  -The only SURFACE liquid water in the 
-   solar system 
-  -The atmosphere protects us from harmful 
-   solar radiation and maintains a MODERATE 
-   greenhouse effect (so that Earth is not 
-   as baked as Venus), for now anyway... 
-
- Mars 
-  -Polar caps of frozen water and frozen 
-   carbon dioxide (dry ice). 
-  -Sign of water flow in the distant past, 
-   and might still have water underground. 
-  -Not enough oxygen to breathe, air pressure 
-   is less than on top of Mount Everest, 
-   usually below freezing, and lack of ozone 
-   projection. 
+Since orbital period of Jupiter is ~= 12 
+years, monitoring sun for 50 years will 
+give periodic peaks in intensity. 
 
 --------------------------------------------
-Jovian Planets 
-
- Jupiter 
-  -The largest and most massive planet 
-   (but less dense than terrestrial planets) 
-  -Like the sun, it has no solid surface, but 
-   there's no fusion in the core. 
-  -Most famous feature is the Great Red Spot, 
-   a long-lived storm. 
-
- Saturn 
-  -Titan (one of Saturn's moons) is the only 
-   moon in the solar system that has a thick 
-   atmosphere. 
-  -Enceladus (one of Saturn's moons) has ice 
-   fountains. 
-
- Uranus 
-  -Extreme axis tilt, almost rolling on its 
-   side. 
-  -The pale blue-green color is due to 
-   methane. 
-
- Neptune 
-  -Similar to Uranus, except for axis tilt 
-   and more strikingly blue. 
-  -Very windy. 
-
--------------------------------------------- 
-Terrestrial Planets vs. Jovian Planets 
-
- -Size [Jovian > Terrestrial] 
-
- -Mass [Jovian > Terrestrial] 
-
- -Density [Terrestrial > Jovian] 
-
- -Moons [Jovian > Terrestrial] 
-  (All Jovian planets have rings) 
-
- -Orbital Period [Jovian > Terrestrial] 
-
- -Rotation Period [Terrestrial > Jovian] 
-
--------------------------------------------- 
-Inter-planet traveling and settling
-
- Reasons for: 
-  -Explore new frontiers
-  -New resources/technology 
-  -Necessary for human survival 
-
- Reasons against: 
-  -Should fix problems on Earth first 
-  -Not a top priority since there're more 
-   urgent needs on Earth 
-  -Could destroy other planets or endanger 
-   other potential lifeforms (microbial or 
-   not) on other planets 
-  -How to govern? Terrestrial dispute? 
-
--------------------------------------------- 
-Volcanism 
-
- -Volcanoes release gas (mostly water vapor, 
-  CO2, N2) 
- -Water vapor condenses to form ocean. 
- -Some CO2 dissolves in water and comes down 
-  with rain and gets locked in rocks. 
-
--------------------------------------------- 
-Formation of the Solar System 
-
- The Nebular Theory 
-  -According to the nebular theory, our 
-   solar system formed from a giant cloud of 
-   interstellar gas. (Nebula = Cloud) 
-  -Stars forming in other interstellar gas 
-   clouds, lending support to the nebular 
-   theory. 
-  -In the early universe, there were only 
-   very light elements, yet our solar system 
-   contains heavy elements. 
-
--------------------------------------------- 
-Seeds of planets 
-
- -In the surrounding disk, the material is 
-  too spread out for gravity alone to clump 
-  it together. 
- -Small clumps (seeds) need to form first 
-
-Seeds are formed through condensation 
-(solid or liquid particles forming in a gas) 
-
- -Different materials condense at different 
-  temperatures. 
-
--------------------------------------------- 
-The stage was set for the birth of two types 
-of planets 
 
- Terrestrial planets - born from the solid 
- seeds that contained only metals and rock, 
- in the inner region. 
+8. How do we measure the age of the Earth 
+(i.e. the age of the oldest rocks)? 
+--------------------------------------------
+
+ANS: Dating radioactive elements in it
+
+The ages of Earth and Moon rocks and of 
+meteorites are measured by the decay of 
+long-lived radioactive isotopes of elements 
+that occur naturally in rocks and minerals 
+and that decay with half lives of 700 
+million to more than 100 billion years to 
+stable isotopes of other elements. 
+
+--------------------------------------------
+
+9. How does the age of Earth compare with 
+the age of the Universe? 
+--------------------------------------------
+
+ANS: It is very young 
+
+Current measurements yield an age of about 
+4.54 billion years for the Earth and about 
+13.8 billion years for the Universe. 
+
+--------------------------------------------
+
+10. Why the chemical composition of solar 
+system implies it was formed from the 
+remnants of older stars? 
+--------------------------------------------
+
+ANS: Heavier elements are in newer solar 
+systems 
+
+The presence of the heavier elements in 
+our solar system tells us that the solar 
+system was formed from the remnants of older 
+stars. All the elements which are heavier 
+than nickel are formed in a supernova 
+explosion. Hence, the presence of the heavier 
+elements shows that supernova did happened 
+before the beginning of the solar system. 
+The supernova happens when star dies and 
+goes out into big explosion. Also, the 
+presence of certain isotopes of different 
+element shows that certain material were 
+injected by the supernova that lead to the 
+change in the number of neutrons in the 
+nucleus of certain elements. 
+
+--------------------------------------------
+
+11. What is the solar cycle (magnetic, 
+and sunspot number)?
+--------------------------------------------
+
+ANS: The magnetism flips every 11 years; 
+indicated by a rise in sunspots
+
+The 11-year sunspot cycle is actually half 
+of a longer, 22-year cycle of solar activity. 
+Each time the sunspot count rises and falls, 
+the magnetic field of the Sun associated with 
+sunspots reverses polarity; the orientation 
+of magnetic fields in the Sun's northern and 
+southern hemispheres switch. 
+
+--------------------------------------------
+
+12. How does polarity of the solar magnetic 
+poles change during the solar cycle?
+--------------------------------------------
+
+ANS: It flips every 11 years 
+
+The sun's magnetic field changes polarity 
+approximately every 11 years. It happens at 
+the peak of each solar cycle as the sun's 
+inner magnetic dynamo re-organizes itself. 
+The coming reversal will mark the midpoint 
+of Solar Cycle 24. Half of "solar max" will 
+be behind us, with half yet to come. 
+
+--------------------------------------------
+
+13. How do we know there is strong magnetic 
+field in the sunspots?
+--------------------------------------------
+
+ANS: The magnetic field inhibits convection 
+to the surface, resulting in a darker spot
+
+We know that sunspots are magnetic because 
+we can directly observe the effect that the 
+field has on the spectral lines we observe 
+through a phenomenon called the Zeeman 
+effect. 
+
+--------------------------------------------
 
- Jovian planets - born from the solid seeds 
- that contained metals, rock, and hydrogen 
- compounds. 
+14. What is the HR diagram? 
+--------------------------------------------
 
--------------------------------------------- 
-Formation of Terrestrial Planets 
+ANS: Luminosity vs temperature. Two stars 
+with the same temperature but different 
+luminosities must be different sizes. 
 
- Accretion: 
-  small seeds -> larger pieces 
-  "planetesimals" -> full fledged planets 
+Hertzsprung-Russell diagram, also called 
+H-R diagram, in astronomy, graph in which 
+the absolute magnitudes (intrinsic 
+brightness) of stars are plotted against 
+their spectral types (temperatures). 
 
- Terrestrial planets are small due to 
- limited metal and rock available in the 
- nebula. 
+--------------------------------------------
 
--------------------------------------------- 
-Formation of Jovian Planets 
+15. What is the main characteristic of the 
+stars on the main sequence?
+--------------------------------------------
 
- -In contrast with terrestrial planets, 
-  Jovian planets had larger planetesimals 
-  (due to hydrogen compounds in addition to 
-  metals and rock). Therefore could capture 
-  some of the H and He gas. 
- -Eventually the Jovian planets accreted so 
-  much gas that they bore so little 
-  resemblance of the hydrogen compound (icy) 
-  seeds they grew from. 
+ANS: They all use fusion (hydrogen to 
+helium)
 
--------------------------------------------- 
-The End of Planet Formation Era 
+Main sequence stars are characterised by the 
+source of their energy. They are all 
+undergoing fusion of hydrogen into helium 
+within their cores. The rate at which they 
+do this and the amount of fuel available 
+depends upon the mass of the star. 
 
- -The majority of the H and He gas never 
-  became part of any planet. 
- -They were cleared away by the high energy 
-  radiation (UV and X-ray) and charged 
-  particles from the Sun. 
+--------------------------------------------
 
-If the gas had remained longer... 
+16. What is the spectral class of the Sun, 
+and what is the meaning of 'V' in it? 
+--------------------------------------------
 
- -The gas might have continued to cool 
- -Hydrogen compounds could have condensed in 
-  the inner region 
- -Terrestrial planets would have accreted 
-  some icy hydrogen compounds, changing its 
-  nature. 
+ANS: G2 V. V means main sequence; G 
+indicates temperature
 
--------------------------------------------- 
-Accretion 
+The full classification for our Sun is G2 V. 
+The G2 spectral type means it is 
+yellow-white in color and the luminosity 
+class V means it a hydrogen-burning, 
+main-sequence star. 
 
- -Terrestrial planets are small due to 
-  limited metal and rock available in the 
-  nebula. 
+--------------------------------------------
 
- -Jovian planets have larger planetesimals 
-  (due to hydrogen compounds in addition to 
-  metals and rock), therefore can capture 
-  some of the H and He gas. 
+17. How is the HR diagram of an old star 
+cluster different from a young one?
+--------------------------------------------
 
--------------------------------------------- 
-Where did asteroids and comets come from? 
+ANS: Young clusters include hotter, bluer, 
+more powerful stars 
 
- -Leftovers from the accretion process. 
-  (Rocky asteroids inside frost line) 
-  (Icy comets outside frost line) 
+When a cluster is young, the brightest 
+members are O, B and A stars. Young clusters 
+in our Galaxy are called open clusters due 
+to their loose appearance. They usually 
+contain between 100 and 1,000 members. 
 
-Why is there an asteroid belt between Mars 
-and Jupiter? 
+Early in the formation of our Galaxy, very 
+large, globular clusters formed from giant 
+molecular clouds. Each contain over 10,000 
+members, appear very compact and have the 
+oldest stars in the Universe. 
 
- -Periodic nudge from the giant Jupiter 
+--------------------------------------------
 
-Why did comets end up in Kuiper Belt and 
-Oort Cloud? 
+18. What keeps the main sequence stars from 
+gravitational collapse? 
+--------------------------------------------
 
- Oort Cloud: 
-  -Comets on random orbits extending to 
-   about 50,000 AU 
+ANS: Fusion expands the star outward, 
+counteracting gravity 
 
- Kuiper Belt: 
-  -Comets on orderly orbits at 30-100 AU in 
-   disk of solar system 
+Stars on the main sequence are those that 
+are fusing hydrogen into helium in their 
+cores. The radiation and heat from this 
+reaction keep the force of gravity from 
+collapsing the star during this phase of 
+the star's life. 
 
--------------------------------------------- 
-Asteroids and Comets Must have Collided with 
-Planets 
+--------------------------------------------
 
- -Heavy Bombardment 
- -Bombardment may have brought water to 
-  Earth 
+19. White dwarf is the final product of 
+_____ and what stops a white dwarf from 
+collapsing further? 
+--------------------------------------------
 
--------------------------------------------- 
-How do we explain "exceptions to the rules?" 
+ANS: A white dwarf is the final stage of 
+the evolution of a star that is between .07 
+and 1.4 solar masses. Supported by electron 
+degeneracy 
 
- -Uranus's odd tilt 
- -Earth's relatively large moon 
+--------------------------------------------
 
-Giant impacts might also explain the 
-different rotation axes of some planets. 
+20. What is the maximum mass of a white 
+dwarf? 
+--------------------------------------------
 
--------------------------------------------- 
-Captured Moons 
+ANS: 1.4 solar masses 
 
- -Moons formed in the disk of Jovian planets 
-  will orbit in the plane and in the same 
-  direction as the rotation of the planet. 
+--------------------------------------------
 
- -Those that are not in the plane or 
-  rotating the opposite way are probably 
-  captured leftover planetesimals. 
+21. A neutron star is ____ 
+--------------------------------------------
 
- -The two SMALL moons of the terrestrial 
-  planet Mars are probably captured as 
-  well. 
+ANS: The remains of a star that died in a 
+massive star supernova (if no black hole was 
+created) 
 
--------------------------------------------- 
-Was our own Moon captured by Earth? 
+A small, highly dense star composed almost 
+entirely of tightly packed neutrons; radius 
+about 10km 
 
- -Not likely, because our Moon is too large 
-  for a small planet like Earth to capture 
-  it. 
+--------------------------------------------
 
-Did our Moon form at the same time alongside 
-Earth? 
+22. Why do neutron stars rotate so quickly?
+--------------------------------------------
 
- -Not likely, from the composition 
-  difference. 
+ANS: Angular momentum 
 
--------------------------------------------- 
-Summary of the Nebula Theory of Solar 
-System Formation 
+Neutron stars rotate extremely rapidly 
+after their formation due to the 
+conservation of angular momentum; in analogy 
+to spinning ice skaters pulling in their 
+arms, the slow rotation of the original 
+star's core speeds up as it shrinks. A 
+newborn neutron star can rotate many times 
+a second. 
 
- Contraction of Solar Nebula -> Condensation 
- of Solid Particles -> Accretion of 
- Planetesimals -> Clearing the Nebula 
+--------------------------------------------
 
--------------------------------------------- 
-How do we know the age of the solar system? 
+23. How did we discover neutron stars? 
+--------------------------------------------
 
- -We cannot find the age of a planet 
-  directly, but we can find the ages of its 
-  rocks. 
+ANS: Observing a sudden, bright distant 
+light 
 
--------------------------------------------- 
-Dating Rocks 
+British astronomer Antony Hewish (1924–) 
+and British astrophysicist Jocelyn Bell 
+(1943–) discovered the first reported 
+neutron star in 1967 when they detected 
+radio pulses coming from what they thought 
+was a pulsar. 
 
- -The age of a rock is the time since its 
-  locked together in their present 
-  arrangement (the rock last solidified). 
+--------------------------------------------
 
- -We measure a rock's age through a method 
-  called "radiometric dating." 
+24. Will the Sun ever be a neutron star, 
+and why/why not? 
+--------------------------------------------
 
- -It relies on the measurement of the 
-  proportions of various atoms and isotopes 
-  in the rock. 
+ANS: No - not large enough 
 
--------------------------------------------- 
-Radioactive Isotope (For age of Solar Sys.) 
+--------------------------------------------
 
- -The nucleus of a radioactive isotope 
-  spontaneously decay (Potassium -> Argon) 
+25. An event horizon is ____ 
+--------------------------------------------
 
- -The decay rate is described using half 
-  life -- the time it takes for half of the 
-  nuclei in a sample to decay. 
+ANS: The edge of a black hole 
 
-Radioactive Decay 
+In astrophysics, an event horizon is a 
+boundary beyond which events cannot affect 
+an observer. Wolfgang Rindler coined the 
+term in the 1950s. In 1784, John Michell 
+proposed that gravity can be strong enough 
+in the vicinity of massive compact objects 
+that even light cannot escape. 
 
- N(t) = N_0(1/2)^(t/t_half) 
+--------------------------------------------
 
-Solve for t: [t = the following: ]
+26. How and why does the shape of object 
+approaching the black hole change? 
+--------------------------------------------
 
-t_half(log(current amount/original amount)
-------------------------------------------
-                 log(1/2)
+ANS: It elongates 
 
--------------------------------------------- 
-Dating the Solar System <3
+As the object falls into the black hole, 
+tidal forces will rip the object apart so 
+that it stretches out like a piece of 
+spaghetti in a process aptly named 
+spaghettification. 
 
- -Age dating tells you the time since the 
-  rock solidified, but not all rocks formed 
-  at the same time. 
+--------------------------------------------
 
- -The oldest rock from Earth is about 4 
-  billion years old, i.e. the solar system 
-  must be older than that. 
+27. A supernova is ______ 
+--------------------------------------------
 
- -In order to find the age of the solar 
-  system, we have to find rocks that have 
-  not melted or vaporized since they first 
-  formed in the solar nebula. 
+ANS: Final stage in the life of a giant 
+star 
 
- -Many meteorites that fell on Earth appear 
-  to be unchanged since they condensed and 
-  accreted in the early solar system. 
-  Analysis of those meteorites tells us the 
-  oldest formation time is about 4.56billion 
-  years ago. 
+A supernova is what happens when a star has 
+reached the end of its life and explodes in 
+a brilliant burst of light. 
 
-  ==> That's the beginning of the accretion 
-  in the solar system, and since planets 
-  accreted within about 0.05 billion years, 
-  the age of the planets is about 4.5billion 
-  years. 
+--------------------------------------------
 
--------------------------------------------- 
-Dwarf Planets 
+28. Describe the differences of the two 
+main types of supernovae by their origin 
+and their spectrum. 
+--------------------------------------------
 
- -Orbit the sun 
- -Massive enough to be roughly spherical 
+ANS: Type I is a binary star system with a 
+white dwarf that steals matter from its 
+partner. Type II leaves a neutron star
 
--------------------------------------------- 
-Pluto 
+As the earth spins on its axis, producing 
+night and day, it also moves about the sun 
+in an elliptical (elongated circle) orbit 
+that requires about 365 1/4 days to 
+complete. The earth's spin axis is tilted 
+with respect to its orbital plane. This is 
+what causes the seasons. 
 
- -Discovered in 1930 through motion against 
-  background stars. 
- -Not much was known about it until the 
-  mission New Horizons. 
+--------------------------------------------
 
--------------------------------------------- 
-Asteroids 
+29. Which of the two types of SN you 
+described above is useful for the distance 
+determination, and why? 
+--------------------------------------------
 
- -Rocky debris larger than ~10 m 
-  (Smaller ones are "meteoroids") 
+ANS: Type II are more luminous 
 
-Ceres 
+--------------------------------------------
 
- -The largest asteroid (dwarf planet) 
+30. How do we measure distances to the 
+nearby galaxies, such as M31 (Andromeda 
+galaxy)? 
+--------------------------------------------
 
-Smaller asteroids are not round 
+ANS: Light curves
 
-Asteroids rotate 
- -Typical -10 hours 
- -Fastest discovered so far ~25 seconds 
-
-Some asteroids have their own moons 
-
-Some asteroids come to us as Meteorites 
-
--------------------------------------------- 
-Dinosaur Extinction 
-
- -No dinosaur fossils in upper rock layers 
-
- -Thin layer containing the rare element 
-  iridium 
-
- -Dinosaur fossils in lower rock layers 
-
--------------------------------------------- 
-Comets 
-
- -Dirty snowballs from outer solar system 
- 
- -Long-period comets (tens of thousands to 
-  millions of yrs) can get trapped and 
-  become short-period (<200 yrs) comet in 
-  the inner solar system. 
-
--------------------------------------------- 
-The anatomy of a comet 
-
- -Nucleus, Coma, Hydrogen Envelope, Tails 
-
- -Invisible to human eyes, the hydrogen 
-  envelope can be huge. 
-
- -Tails are away from the Sun, regardless of 
-  which way the comet is going. 
-
--------------------------------------------- 
-Comets don't last forever 
-
- -60 to 100 passages by the Sun (perihelion) 
- -Can be torn apart by tidal force 
- -Can be destroyed during collision 
-
--------------------------------------------- 
-
-<<<<<<<<<<<<Extrasolar Planets>>>>>>>>>>>>>> 
-
--------------------------------------------- 
-Direct detection 
-
- -Seeing the planets directly 
-
-Indirect detection 
-
- -Inferring its existence 
- -Gravitational tugs 
- Astrometry 
-  -Detecting wobbling of stars in the image 
-
- -Radial velocity (Doppler effect) 
-  [Starlight with respect to Earth is 
-   redshifted or blueshifted] 
-
-    -Periodic variation in the star's 
-     orbital speed tells us that it has an 
-     unseen planet. 
-
-    -The velocity change gives us the star's 
-     orbital speed, which tells us the 
-     planet's mass. 
-
-    (Can calculate average orbital distance 
-     of this star-planet and can estimate 
-     minimum mass of this planet) 
-
-50 -
-   |                     ___
-   |.                    .|.
-   | .                 .  |  .
-   |  .               .   |   .
- 0 -   .             .    |    .
-   |    .           .     |     .
-   |     .         .      |      .
-   |       .     .        |        .
-   |         . .         ---         . .
--50-           |-----------------------|
-   |
-   |
-   | 
-   | 
--100    
-
-[Y-axis: velocity | X-axis: time] 
-
--------------------------------------------- 
-
-<<<<<<<<<<<<<<<< Our Star >>>>>>>>>>>>>>>>>> 
-
--------------------------------------------- 
-The Solar Atmosphere 
-
- Photosphere 
-  -Lowest layer of the Sun's atmosphere 
-  -Emits most of the Sun's visible light 
-   (T ~ 5800 K) 
-
- Chromosphere 
-  -Above photosphere 
-  -Less dense 
-
- Corona 
-  -Outermost layer of the atmosphere 
-  -Extremely hot (T ~ 1 million K) but very 
-   diffuse 
-
--------------------------------------------- 
-Solar Activities 
-
- Sunspots: 
-  -Only look dark because they are cooler 
-   compared to the surroundings. 
-  -Sunspot can tell us about Sun's rotation. 
-
--------------------------------------------- 
-Sunspots are linked to magnetic field 
-
- -Outside the sunspot, the magnetic field 
-  is weak and this iron absorption line is 
-  single. 
-
- -Within the sunspot, the magnetic field is 
-  strong and this iron absorption line 
-  splits into three. 
-
-Sunspots appear in pairs and groups 
-
- -Polarity reverses every max/min cycle 
-  ==> solar cycle is 2x11 yr = 22 yr 
-
--------------------------------------------- 
-Prominences 
-
- -The solar magnetic fields extend high 
-  into the chromosphere and corona. 
-
- -Ionized gas trapped in magnetic field 
-  rises up through photosphere and 
-  chromosphere. 
-
--------------------------------------------- 
-Solar flares 
-
- -Due to change in magnetic field bursts of 
-  UV, X rays photons and charged particles 
-  are emitted. 
-
--------------------------------------------- 
-Coronal Mass Ejection 
-
- -Large volumes of high-energy gas are 
-  released from corona. 
-
- -Photons from these ejections can reach 
-  Earth in ~8 mins. 
-
- -High energy particles in these ejections 
-  can reach Earth in a couple of days. 
-
--------------------------------------------- 
-Why does the Sun shine? (Energy source) 
-
- -In the late 19th century, astronomers 
-  came up with the idea that the energy 
-  output is due to gravitational 
-  contraction. (misproven due to this 
-  giving the Sun an age of only 25 million 
-  years) 
-
- -Einstein's famous equation E = mc^2 
-
- -By the end of the 1930s, scientists 
-  figured out the Sun converts mass into 
-  energy through NUCLEAR FUSION. 
-
--------------------------------------------- 
-For nuclear fusion to start in the Sun 
-
- -Need extremely high temperature and 
-  density 
-
- -The temperature and density is high 
-  enough to trigger fusion in the core of 
-  the Sun. 
-
--------------------------------------------- 
-How did the core get to that condition? 
-
- -The gravitational contraction of the 
-  initial nebular gas cloud raised 
-  temperature and pressure until the core 
-  finally became hot enough to sustain 
-  nuclear fusion. 
-
--------------------------------------------- 
-Hydrogen Fusion in the Sun (>10 million K) 
-
- -proton-proton chain 
-
- P P  ==>  N P N + neutrinos + photon energy 
- P P         N
-
--------------------------------------------- 
-Example Nuclear Fusion Calculation: 
-
-The current power output of the Sun is 
-3.9e26 watt (J/s). How much H (in kg) is 
-being fused into He EVERY SECOND? 
-
-[
-
-Mass of 4 H atoms = 6.693e-27 kg 
-Mass of 1 He atom = 6.645e-27 kg 
-
-Mass lost = 0.048e-27 kg 
-
-Mass loss/Mass of 4 H 
-= 0.048/6.694 = 0.7%
-
-Energy per reaction: 
-
- E = mc^2 = (0.048e-27)(3e8)^2 = 4.3e-12 J 
-
-Number of reactions: 
-
- (3.9e26)/(4.3e-12) 
-
-Mass consumed: 
-
- (3.9e26/4.3e-12)*6.693e-27 = 6.1e11 kg
-
-FINAL ANS: 
-
- That’s 610 million tons, weight of ~2 
- empire state buildings. 
- (Only ~0.7% of it turned into energy.) 
-
--------------------------------------------- 
-How does the energy generated from fusion 
-in the core get out of the Sun? 
-
- -Neutrinos escape right away. 
-
- -But, the energy in photons take hundreds 
-  of years to get to the surface and 
-  radiate away as "sunlight." 
-
- -Once reaching the photosphere (where gas 
-  density is low enough), energy radiates 
-  away to space. 
-
--------------------------------------------- 
-The Stable Sun 
-
- The Sun shines steadily today because of 
- two balances: 
-
-  -Gravitational (hydrostatic) equilibrium 
-  -Energy balance 
-
--------------------------------------------- 
-Gravitational (hydrostatic) equilibrium 
-
- -The downward pull of gravity and upward 
-  push from internal pressure is balanced. 
-
--------------------------------------------- 
-Energy Balance 
-
- -The rate at which fusion releases energy 
-  in the Sun's core and the rate at which 
-  the Sun's surface radiates energy into 
-  space is balanced. 
-
--------------------------------------------- 
-Example Question: 
-
-What would happen inside the Sun if for 
-some reason there is a slight rise in core 
-temperature leading to a rapid rise in 
-fusion energy? 
-
-ANSWER: 
-
-The core would expand and cool. 
-
--------------------------------------------- 
-Decline in core temperature 
-causes fusion rate to drop, so 
-core contracts and heats up.
-
-Rise in core temperature causes 
-fusion rate to rise, so core 
-expands and cools down. 
-
- -Because of this adjustment, fusion rate 
-  and temperature are kept steady. 
-
--------------------------------------------- 
-What is Luminosity? 
-
- Stefan-Boltzmann law: 
-
-  P = oT^4 
-
-  P is the emitted power per square meter 
-  of surface, T is temperature in Kelvin. 
-
-  o = 5.7e-8 Watt/(m^2 x K^4) 
-
-
- Luminosity: 
-
-  Total power output from a star 
-  (i.e. total energy per second) 
-
-  L = surface area x P 
-    = 4piR^2 x P 
-    = [4piR^2][oT^4] 
-
-  R is the radius of the star 
-
--------------------------------------------- 
-Luminosity depends on both temperature and 
-surface area of the object. 
-
-It is an intrinsic property. 
-
- -Only a fraction of the light emitted will 
-  be received. 
-
- -Distance dependent 
-
--------------------------------------------- 
-Apparent Brightness 
-
- -Amount of power received per unit area on 
-  Earth. 
-
--------------------------------------------- 
-Inverse Square Law for Light 
-
- -The same amount of starlight passes 
-  through each sphere. 
-
- -The surface area of a sphere depends on 
-  the square of its radius (distance from 
-  the star), so the amount of light passing 
-  through each unit of area depends on the 
-  inverse square of distance from the star. 
-
- -Area of sphere: 4pi(radius)^2 
-  (The radius of the sphere is the distance 
-   to Earth). 
-
--------------------------------------------- 
-Apparent Brightness and Luminosity 
-
- Appar. Brightness = Lumin./4pi(distance)^2
-
- L = 4pi x d^2 x b 
-
--------------------------------------------- 
-Example question: 
-
-How would the apparent brightness of 
-Proxima Centauri change if it were three 
-times farther away? 
-
-ANSWER: 
-
-It would be only 1/9 as bright. 
-
--------------------------------------------- 
-Example question: 
-
-Considering the following two stars. Star 
-A has a radius one quarter that of Star B. 
-Star A’s temperature is twice that of Star 
-B. What’s the ratio of their luminosity? 
-
-ANSWER: 
-
-LA/LB=1 
-
--------------------------------------------- 
-Spectral Types 
-
-O B A F G K M 
-
-Hottest (> 33,000 K) -> Coolest (< 3,700 K) 
+Distances to deep-sky objects such as the 
+Andromeda galaxy are often determined using 
+what are referred to as "Standard Candles", 
+which means that astronomers look for objects 
+located within the target for which they 
+believe they know the intrinsic luminosity 
+(how bright it actually is). 
