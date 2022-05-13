@@ -1,0 +1,194 @@
+<<<<<<<<<<<<<<<<<Homework 4>>>>>>>>>>>>>>>>>>
+
+--------------------------------------------
+
+Problem 1 (2 points).
+--------------------------------------------
+As we discussed in class, half of this 
+year’s Nobel Prize in Physics is awarded 
+for the work discovering the super massive 
+black hole at the center of our galaxy. As 
+shown in the snapshot below, by monitoring 
+the stars near the galactic center and 
+tracing their orbits, the mass of the 
+central object can be estimated from 
+Newton’s version of Kepler’s third law as 
+we have seen before. 
+ 
+One of the stars in the center of our 
+galaxy called S2 has a relatively short 
+orbital period, 15.2 years and thus its 
+entire orbit was mapped out. The semi-
+major of its orbit is determined to be 
+5.5 light days (952.3 AU). Based on this, 
+what is the mass of the object at the very 
+center of our galaxy (in solar masses)? 
+                                                               
+You can directly calculate the mass using 
+the equation above – you have to use SI 
+units and the mass you get would be in kg. 
+Then you’ll need to convert it to solar 
+masses. 
+
+However, for this specific problem, there 
+is an easier way. Remember we can apply 
+p^2 = a^3 to the orbital motion of Earth 
+around the Sun as well. So we have two 
+equations: 
+
+[P_s2]^2 = [([4pi]^2)/(G*M_BH)]*[a_s2]^3 
+
+and 
+
+[P_E]^2 = [([4pi]^2)/(G*M_Sun)]*[a_E]^3
+
+where we have made use of the fact that 
+the mass of the satellite object is much 
+smaller than that of the central object 
+and is thus ignored. Taking the ratio of 
+the two equations, we have:  
+
+[P_s2]^2        ([M_Sun]*[a_s2]^3)
+---------- = ------------------------
+[P_E]^2         ([M_BH]*[a_Earth]^3)
+
+The beauty of this is that we don’t have 
+to bother with SI units – it’s a ratio so 
+we can use whatever units that are 
+convenient, especially knowing P_E (P_Earth) 
+= 1 year, and a_E (a_Earth) = 1 AU. 
+
+
+ANS: 
+
+[
+
+[P_s2]^2        ([M_Sun]*[a_s2]^3)
+---------- = ------------------------
+[1]^2         ([M_BH]*[1]^3)
+
+                ([M_Sun]*[a_s2]^3)
+[P_s2]^2 = ------------------------
+                      [M_BH] 
+
+            ([M_Sun]*[a_s2]^3)
+M_BH = ------------------------
+                   [P_s2]^2 
+
+           ([M_Sun]*[952.3]^3)
+M_BH = ------------------------
+                   [15.2]^2 
+
+[M_BH]/[M_Sun] = 3.73E6 
+
+];  
+
+--------------------------------------------
+
+Problem 2 (2 points).
+--------------------------------------------
+a) Our Sun is about 27000 light years away 
+from the center of our galaxy, and it is 
+orbiting around the center at a speed of 
+about 220 km/s on average. Assuming the 
+orbit is perfectly circular, what is the 
+total mass enclosed within the Sun’s orbit 
+(in solar masses)? Feel free to review the 
+orbital motion part of the lecture slides. 
+
+ANS: 
+
+[
+
+v = sqrt([GM]/R) 
+M = ([v^2]*R)/G 
+t = 60×60×24×365 = 3.15E7 s 
+R = 27000*(3E8)*(3.15E7) = 2.55E20 m 
+
+     ([v^2]*R)/G = ([(2.2E5)^2]*[2.55E20])
+M = --------------------------------------
+                  (6.67E-11) 
+
+M = 1.85E41 kg 
+
+(In Solar Masses) 
+M = (1.85E41)/(1.99E30) = [9.29E10]M_Sun 
+
+]; 
+
+b) If we observe the distribution of stars 
+in our galaxy, we will find that it tapers 
+off as you go from the center of the galaxy 
+outwards. Beyond where the Sun is, there 
+isn’t much visible matter (stars or gas) out 
+there. However, if you observe the orbital 
+speed out there, it is actually roughly the 
+same as the Sun’s orbital speed.  
+
+i) (1 point) Does this mean the total mass 
+enclosed at larger and larger radius 
+increases, decreases or stays the same? 
+
+ANS: 
+
+[
+
+This means that the total mass enclosed at 
+a larger radius stays the same, as the
+orbital speed remains almost constant at 
+a larger radius, despite the increase in 
+distance. 
+
+];  
+
+ii) (1 point) Does your answer in i) 
+contradict with the fact that visible matter
+in our galaxy is concentrated only in the 
+central region within the solar radius? 
+How would you reconcile this “discrepancy”? 
+
+ANS: 
+
+[
+
+Yes, this contradicts the observation that 
+visible matter is concentrated at the center
+of the galaxy. To reconcile this 
+“discrepancy,” one can assumes that some sort 
+of invisible or dark matter is present even 
+at the larger radii, resulting in the orbital 
+speed to be constant.
+
+];   
+
+
+--------------------------------------------
+
+Problem 3 (2 points).
+--------------------------------------------
+In class we discussed how to measure 
+distance on different scales. On very large 
+scales, there is a Hubble flow due to the 
+expansion of the Universe governed by 
+Hubble’s law: cz = v = H0 d, where c is 
+speed of light in vacuum, z is redshift, v 
+is the recession speed, Ho is the Hubble 
+constant and d is distance. (This linear 
+relation is only valid for low redshift 
+though.) 
+
+A group of galaxies called Robert’s quartet 
+has a receding speed of 3400 km/s. The 
+current accepted value for Ho is 70 km/s/Mpc. 
+How far away is this group of galaxies 
+(in Mpc)? 
+
+ANS: 
+
+[
+
+v = H0*d 
+
+d = v/H0 = 3400/70 = 48.57 Mpc 
+
+]; 
