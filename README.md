@@ -1,2 +1,2 @@
 # Stevens
-Alexander Gaskins classwork at Stevens Institute of Technology
+Alexander Gaskins data at Stevens Institute of Technology
