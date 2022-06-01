@@ -1,4 +1,3 @@
 # Stevens
 Alexander Gaskins data at Stevens Institute of Technology
-
-![Stevens Institute of Technology Logo](https://github.com/cupokoffi8/Stevens/blob/main/logo.png
+![This is an image](https://github.com/cupokoffi8/Stevens/blob/master/logo.png
