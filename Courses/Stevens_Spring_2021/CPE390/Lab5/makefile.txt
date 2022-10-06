@@ -1,0 +1,2 @@
+g++ -O2 Lab5.cc cppcode.cc -o lab5cc
+g++ -O2 Lab5.cc armcode.s -o lab5s

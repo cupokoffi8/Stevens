@@ -1,0 +1,3 @@
+r0 to r15 are all 32 bit registers
+
+hexadecimal = base 16
