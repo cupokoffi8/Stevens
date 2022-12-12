@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Dec 10 19:20:43 2022
+# Process ID: 19432
+# Current directory: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1
+# Command line: vivado.exe -log tic_tac_toe.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tic_tac_toe.tcl -notrace
+# Log file: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.vdi
+# Journal file: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1\vivado.jou
+# Running On: Alex-G3, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8443 MB
+#-----------------------------------------------------------
+source tic_tac_toe.tcl -notrace

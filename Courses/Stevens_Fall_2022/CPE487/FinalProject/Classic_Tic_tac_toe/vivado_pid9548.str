@@ -1,0 +1,930 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 9548
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Dec 10 18:36:07 EST 2022
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	D:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Alex
+User home directory: C:/Users/Alex
+User working directory: C:/Users/Alex/Desktop/Classic_Tic_tac_toe
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2022.1
+RDI_DATADIR: D:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/Alex/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/Alex/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/Alex/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Alex/Desktop/Classic_Tic_tac_toe/vivado.log
+Vivado journal file: 	C:/Users/Alex/Desktop/Classic_Tic_tac_toe/vivado.jou
+Engine tmp dir: 	C:/Users/Alex/Desktop/Classic_Tic_tac_toe/.Xil/Vivado-9548-Alex-G3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: D:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,346 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,346 MB. GUI used memory: 58 MB. Current time: 12/10/22, 6:36:08 PM EST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Opening Vivado Project: C:\Users\Alex\Desktop\Classic_Tic_tac_toe\Classic_Tic_tac_toe.xpr. Version: Vivado v2018.3 
+dismissDialog("Older Project Version"); // aK
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'Classic_Tic_tac_toe.xpr' upgraded for this version of Vivado. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+114991kb) [00:00:20]
+// [Engine Memory]: 1,346 MB (+1260399kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  3713 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1588.355 ; gain = 0.000 
+// Project name: Classic_Tic_tac_toe; location: C:/Users/Alex/Desktop/Classic_Tic_tac_toe; part: xc7a35ticsg324-1L
+// Tcl Command: 'upgrade_project -migrate_output_products'
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Message: upgrade_project -migrate_output_products 
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tic_tac_toe (tic_tac_toe.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-35-Master.xdc]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-35-Master.xdc]", 8, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ar
+// WARNING: HEventQueue.dispatchEvent() is taking  1148 ms.
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 130 MB (+12591kb) [00:00:46]
+// Elapsed time: 218 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tic_tac_toe (tic_tac_toe.v), keyboard_input : keyboard_controller (keyboard_controller.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tic_tac_toe (tic_tac_toe.v), keyboard_input : keyboard_controller (keyboard_controller.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1370 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tic_tac_toe (tic_tac_toe.v), graphics_display : generate_graphics (generate_graphics.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tic_tac_toe (tic_tac_toe.v), graphics_display : generate_graphics (generate_graphics.v)]", 4, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1102 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+// [GUI Memory]: 138 MB (+2408kb) [00:05:24]
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 7, true); // D - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // D
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+setFileChooser("D:/Downloads/Nexys-A7-100T-Master.xdc");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse D:/Downloads/Nexys-A7-100T-Master.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-A7-100T-Master.xdc]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-A7-100T-Master.xdc]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1102 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 11 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 3, 98); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 4, 117); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 18, 159); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'c'); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 164, 160); // be
+// Elapsed time: 77 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 666, 327); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectCodeEditor("Arty-A7-35-Master.xdc", 743, 324); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 11, 172); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 12, 202); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 258, 155); // be
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 246 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 1, 91); // be
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 667, 72); // be
+selectCodeEditor("Arty-A7-35-Master.xdc", 714, 132); // be
+selectCodeEditor("Arty-A7-35-Master.xdc", 665, 199); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 678, 137); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 669, 219); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 674, 159); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 667, 243); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 675, 184); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 667, 258); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 675, 199); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 4, 142); // be
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 667, 74); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 678, 78); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+selectCodeEditor("Arty-A7-35-Master.xdc", 663, 158); // be
+typeControlKey((HResource) null, "Arty-A7-35-Master.xdc", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 678, 101); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 674, 115); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 675, 138); // be
+typeControlKey((HResource) null, "Nexys-A7-100T-Master.xdc", 'v'); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 798, 120); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 799, 140); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 13, 79); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 11, 101); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 10, 116); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 9, 135); // be
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 4); // m
+// Elapsed time: 23 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 10, 117); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Arty-A7-35-Master.xdc", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-35-Master.xdc]", 8, false); // D
+// Tcl Message: reorder_files -fileset constrs_1 -before C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.srcs/constrs_1/imports/src/Arty-A7-35-Master.xdc C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.srcs/constrs_1/imports/src/Arty-A7-35-Master.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-35-Master.xdc]", 8, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.srcs/constrs_1/imports/src/Arty-A7-35-Master.xdc] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.srcs/constrs_1/imports/src/Arty-A7-35-Master.xdc 
+dismissDialog("Remove Sources"); // bA
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ad
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ar
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Run Synthesis"); // A
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ad
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ar
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Run Synthesis"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 18:53:36 2022] Launched synth_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 18:54:50 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 146 MB (+841kb) [00:20:14]
+// Elapsed time: 87 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cW' command handler elapsed time: 51 seconds
+dismissDialog("Launch Runs"); // cZ
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec 10 18:57:10 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ag
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 3); // m
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 664, 120); // be
+// Elapsed time: 19 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 745, 138); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 781, 163); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 717, 141); // be
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 718, 165); // be
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ad
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ar
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 18:59:19 2022] Launched synth_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 154 MB (+597kb) [00:24:22]
+// Elapsed time: 71 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec 10 19:00:33 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 77 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cZ
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec 10 19:01:58 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 144 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// WARNING: HEventQueue.dispatchEvent() is taking  1092 ms.
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1162 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bA
+selectButton(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Hardware_auto_connect_target"); // D
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:02:36     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-15:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1588.355 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B40C0BA. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.  
+dismissDialog("Auto Connect"); // bA
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "xilinx_tcf/Digilent/210292B40C0BA (0)", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "xilinx_tcf/Digilent/210292B40C0BA (0)", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "xilinx_tcf/Digilent/210292B40C0BA (0)", 0, false); // t
+expandTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "xilinx_tcf/Digilent/210292B40C0BA (0)", 0, false, false, false, false, false, true); // t - Double Click
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "xilinx_tcf/Digilent/210292B40C0BA (0)", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "Open", 1, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210292B40C0BA (0) ; Open", 1, "Open", 1, false, false, false, false, false, true); // t - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  7309 ms.
+// [Engine Memory]: 2,972 MB (+1633692kb) [00:29:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,972 MB. GUI used memory: 116 MB. Current time: 12/10/22, 7:05:20 PM EST
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// [GUI Memory]: 162 MB (+117kb) [00:29:35]
+selectMenuItem((HResource) null, "xc7a100t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+// Elapsed time: 107 seconds
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 111 seconds
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("OptionPane.button", "OK"); // JButton
+selectComboBox(PAResourceItoN.LaunchPanel_LAUNCH_DIRECTORY, "Choose Location...", 1); // e
+// Elapsed time: 21 seconds
+setFolderChooser("C:/Users/Alex/Desktop/Classic_Tic_tac_toe");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cW' command handler elapsed time: 31 seconds
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // cZ
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec 10 19:07:57 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 106 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,214 MB. GUI used memory: 91 MB. Current time: 12/10/22, 7:09:55 PM EST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,735 MB. GUI used memory: 90 MB. Current time: 12/10/22, 7:10:04 PM EST
+// [Engine Memory]: 3,752 MB (+662037kb) [00:34:09]
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.5s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3007 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35ticsg324-1L 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3548.562 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2022.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.164 . Memory (MB): peak = 4230.781 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 4230.781 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4230.781 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 4344.793 ; gain = 1159.637 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// Device view-level: 0.0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 180 MB (+10680kb) [00:34:15]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'eq' command handler elapsed time: 29 seconds
+// Device view-level: 0.1
+// Device view-level: 0.0
+// Elapsed time: 30 seconds
+dismissDialog("Open Implemented Design"); // bA
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 34, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+// Elapsed time: 30 seconds
+setFileChooser("C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// Tcl Message: ERROR: [Labtools 27-3303] Incorrect bitstream assigned to device. Bitfile is incompatible for this device. Bitstream was generated for device xc7a35ti and target device is xc7a100t. ERROR: [Labtools 27-3165] End of startup status: LOW 
+// Tcl Message: ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.  (Program Device)'
+// 'I' command handler elapsed time: 56 seconds
+// Elapsed time: 19 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 2); // m
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // n
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2866 ms.
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // s
+// Elapsed time: 21 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a100tcsg324-1 ; 324 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 287, "xc7a100tcsg324-1", 0); // r
+// [GUI Memory]: 201 MB (+12084kb) [00:36:42]
+// Elapsed time: 44 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Select Device"); // c
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Create New Run"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'copy_run -name synth_1_copy_1 [get_runs synth_1] '
+// TclEventType: RUN_ADD
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Message: copy_run -name synth_1_copy_1 [get_runs synth_1]  
+// TclEventType: RUN_MODIFY
+// TclEventType: REPORT_CREATED
+// TclEventType: REPORT_MODIFY
+// Tcl Message: synth_1_copy_1 
+dismissDialog("Copy Run"); // bA
+// TclEventType: RUN_MODIFY
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PART_MODIFIED
+// Tcl Message: set_property part xc7a100tcsg324-1 [current_project] 
+dismissDialog("Change Settings"); // bA
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+// [GUI Memory]: 220 MB (+9680kb) [00:37:27]
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ad
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ar
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 19:13:30 2022] Launched synth_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 409 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 19:20:32 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 13 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 105 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cZ
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec 10 19:22:23 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+setFileChooser("C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 14 seconds
+dismissDialog("Program Device"); // bA
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 140 MB. Current time: 12/10/22, 7:40:05 PM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  5998582 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 2863ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2618 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/10/22, 9:49:50 PM EST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2925 ms. Increasing delay to 8775 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1989 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// Elapsed time: 8782 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// Elapsed time: 27 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ar
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 INFO: [Labtools 27-3414] Connected to existing cs_server. 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B40C0BA. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.  
+dismissDialog("Auto Connect"); // bA
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// Elapsed time: 10 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ad
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ar
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec 10 21:51:01 2022] Launched synth_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 120 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec 10 21:53:12 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 9 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 134 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cZ
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec 10 21:55:30 2022] Launched impl_1... Run output will be captured here: C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_REMIND_ME_LATER, "Remind me Later"); // a
+dismissDialog("Feedback Request"); // aH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31, true); // n - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31, true); // n - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 31); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+selectButton("NEXT", "Next >"); // JButton
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Local server (target is on local machine)", 0); // e
+// HOptionPane Error: 'A server which has the same host name is already connected. Enter a different valid remote host name or select 'Local Server' before proceeding. (Duplicate Host Name)'
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "OK"); // JButton
+// 'H' command handler elapsed time: 9 seconds
+dismissDialog("Open New Hardware Target"); // aN
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 37 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bA
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 136 MB. Current time: 12/10/22, 10:19:52 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/10/22, 10:49:52 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/10/22, 11:19:52 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/10/22, 11:49:52 PM EST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  10799905 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/11/22, 3:06:29 AM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  3534 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2494 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 136 MB. Current time: 12/11/22, 10:28:29 AM EST
+// Elapsed time: 45051 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Alex/Desktop/Classic_Tic_tac_toe/Classic_Tic_tac_toe.runs/impl_1/tic_tac_toe.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bA
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B40C0BA 
+// WARNING: HEventQueue.dispatchEvent() is taking  1089 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  10800595 ms.
+// WARNING: updateGUI() is taking  3769 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10804414 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 135 MB. Current time: 12/11/22, 1:33:36 PM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  3672787 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6360 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 141 MB. Current time: 12/11/22, 2:35:01 PM EST
+// Elapsed time: 14734 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// WARNING: HEventQueue.dispatchEvent() is taking  10799713 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 136 MB. Current time: 12/11/22, 5:40:13 PM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  2924 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking 60710962ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  60710962 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,917 MB. GUI used memory: 134 MB. Current time: 12/12/22, 10:32:08 AM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  1080 ms.
