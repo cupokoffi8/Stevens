@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/VGA_driver.vhd" \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/game_logic.vhd" \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd" \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/pixel_generation.vhd" \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd" \
+"../../../../theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,27 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TicTacToe_shell_behav xil_defaultlib.TicTacToe_shell -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture oddr_v of entity unisim.ODDR [\ODDR(ddr_clk_edge="SAME_EDGE")(...]
+Compiling architecture behavioral_architecture of entity xil_defaultlib.system_clock_generator [\system_clock_generator(clock_di...]
+Compiling architecture behavioral of entity xil_defaultlib.button_interface [button_interface_default]
+Compiling architecture behavior of entity xil_defaultlib.game_logic [game_logic_default]
+Compiling architecture behavior of entity xil_defaultlib.VGA_driver [vga_driver_default]
+Compiling architecture behavior of entity xil_defaultlib.pixel_generation [pixel_generation_default]
+Compiling architecture behavior of entity xil_defaultlib.tictactoe_shell
+Built simulation snapshot TicTacToe_shell_behav

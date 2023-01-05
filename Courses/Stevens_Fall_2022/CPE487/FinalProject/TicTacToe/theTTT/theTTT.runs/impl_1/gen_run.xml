@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1671751554">
+  <File Type="ROUTE-PWR" Name="TicTacToe_shell_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TicTacToe_shell.tcl"/>
+  <File Type="BITSTR-MMI" Name="TicTacToe_shell.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TicTacToe_shell_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TicTacToe_shell_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="TicTacToe_shell_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TicTacToe_shell_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="TicTacToe_shell_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TicTacToe_shell_opt.dcp"/>
+  <File Type="OPT-DRC" Name="TicTacToe_shell_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TicTacToe_shell.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TicTacToe_shell_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TicTacToe_shell_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TicTacToe_shell_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TicTacToe_shell_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TicTacToe_shell_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TicTacToe_shell_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TicTacToe_shell_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TicTacToe_shell_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TicTacToe_shell_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TicTacToe_shell_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TicTacToe_shell_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="TicTacToe_shell.bin"/>
+  <File Type="PLACE-TIMING" Name="TicTacToe_shell_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TicTacToe_shell_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="TicTacToe_shell.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TicTacToe_shell_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TicTacToe_shell_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TicTacToe_shell_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="TicTacToe_shell.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="TicTacToe_shell_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TicTacToe_shell_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TicTacToe_shell_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TicTacToe_shell_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TicTacToe_shell_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TicTacToe_shell_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="TicTacToe_shell_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TicTacToe_shell_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TicTacToe_shell_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TicTacToe_shell_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TicTacToe_shell_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TicTacToe_shell_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TicTacToe_shell_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TicTacToe_shell_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TicTacToe_shell_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TicTacToe_shell_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TicTacToe_shell_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TicTacToe_shell_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TicTacToe_shell_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TicTacToe_shell_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TicTacToe_shell_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TicTacToe_shell_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TicTacToe_shell_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TicTacToe_shell_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TicTacToe_shell_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TicTacToe_shell_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TicTacToe_shell_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="TicTacToe_shell.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TicTacToe_shell_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TicTacToe_shell_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="TicTacToe_shell.nky"/>
+  <File Type="BITSTR-BMM" Name="TicTacToe_shell_bd.bmm"/>
+  <File Type="PDI-FILE" Name="TicTacToe_shell.pdi"/>
+  <File Type="RCFI_FILE" Name="TicTacToe_shell.rcfi"/>
+  <File Type="CFI_FILE" Name="TicTacToe_shell.cfi"/>
+  <File Type="RNPI_FILE" Name="TicTacToe_shell.rnpi"/>
+  <File Type="NPI_FILE" Name="TicTacToe_shell.npi"/>
+  <File Type="RBD_FILE" Name="TicTacToe_shell.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TicTacToe_shell.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="TicTacToe_shell.sysdef"/>
+  <File Type="BG-BGN" Name="TicTacToe_shell.bgn"/>
+  <File Type="BG-DRC" Name="TicTacToe_shell.drc"/>
+  <File Type="RDI-RDI" Name="TicTacToe_shell.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="TicTacToe_shell_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="TicTacToe_shell_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/VGA_driver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/VGA_driver.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/game_logic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/game_logic.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/input_conditioning.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/input_conditioning.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/pixel_generation.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/pixel_generation.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/system_clock_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/system_clock_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/TicTacToe_shell.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/TicTacToe_shell.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/game_logic_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/game_logic_tb.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/input_conditioning_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/input_conditioning_tb.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/pixel_generation_tb.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/VHDL/pixel_generation_tb.vhd"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TicTacToe_shell"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Downloads/theTTT/tic_tac_toe-main/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1671750694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TicTacToe_shell.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

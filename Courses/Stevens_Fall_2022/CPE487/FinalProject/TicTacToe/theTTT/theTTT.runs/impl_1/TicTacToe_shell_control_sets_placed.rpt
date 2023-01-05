@@ -1,0 +1,93 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Thu Dec 22 18:26:53 2022
+| Host         : Alex-G3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TicTacToe_shell_control_sets_placed.rpt
+| Design       : TicTacToe_shell
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    86 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     9 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              28 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              55 |           18 |
+| Yes          | No                    | No                     |              17 |           12 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              30 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+---------------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+|       Clock Signal      |                      Enable Signal                      |             Set/Reset Signal             | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------+---------------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+|  clocking/CLK           | vga_control/v_counter                                   |                                          |                1 |              2 |         2.00 |
+|  clk_ext_port_IBUF_BUFG |                                                         |                                          |                1 |              2 |         2.00 |
+|  clocking/CLK           | game_logic_control/counter                              | game_logic_control/position_update_reset |                1 |              4 |         4.00 |
+|  clocking/CLK           | game_logic_control/FSM_sequential_curr_state[5]_i_1_n_0 |                                          |                5 |              6 |         1.20 |
+|  clocking/CLK           | vga_control/v_counter                                   | vga_control/v_counter[9]_i_1_n_0         |                5 |              8 |         1.60 |
+|  clocking/CLK           |                                                         | left_monopulse/next_state[0]             |                3 |              9 |         3.00 |
+|  clocking/CLK           |                                                         | right_monopulse/next_state[0]            |                2 |              9 |         4.50 |
+|  clocking/CLK           |                                                         | up_monopulse/next_state[0]               |                3 |              9 |         3.00 |
+|  clocking/CLK           |                                                         | down_monopulse/next_state[0]             |                3 |              9 |         3.00 |
+|  clocking/CLK           |                                                         | drop_monopulse/next_state[0]             |                3 |              9 |         3.00 |
+|  clocking/CLK           | game_logic_control/p1_position                          | game_logic_control/position_update_reset |                3 |              9 |         3.00 |
+|  clocking/CLK           | game_logic_control/p2_position                          | game_logic_control/position_update_reset |                3 |              9 |         3.00 |
+|  clocking/CLK           | game_logic_control/sf_position[8]_i_1_n_0               |                                          |                6 |              9 |         1.50 |
+|  clocking/CLK           |                                                         | vga_control/SR[0]                        |                4 |             10 |         2.50 |
+|  clocking/CLK           |                                                         |                                          |               13 |             26 |         2.00 |
++-------------------------+---------------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+
+

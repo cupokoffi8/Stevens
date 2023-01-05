@@ -1,0 +1,520 @@
+
+*** Running vivado
+    with args -log TicTacToe_shell.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TicTacToe_shell.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source TicTacToe_shell.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1339.273 ; gain = 573.953
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Alex/Desktop/theTTT/theTTT.srcs/utils_1/imports/synth_1/TicTacToe_shell.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Alex/Desktop/theTTT/theTTT.srcs/utils_1/imports/synth_1/TicTacToe_shell.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top TicTacToe_shell -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5308
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TicTacToe_shell' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:41]
+	Parameter CLOCK_DIVIDER_RATIO bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'system_clock_generator' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd:23' bound to instance 'clocking' of component 'system_clock_generator' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'system_clock_generator' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd:34]
+	Parameter CLOCK_DIVIDER_RATIO bound to: 4 - type: integer 
+INFO: [Synth 8-113] binding component instance 'system_clock_buffer' to cell 'BUFG' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd:73]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'clock_forwarding_ODDR' to cell 'ODDR' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'system_clock_generator' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd:34]
+INFO: [Synth 8-3491] module 'button_interface' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:23' bound to instance 'drop_monopulse' of component 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'button_interface' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:33]
+INFO: [Synth 8-3491] module 'button_interface' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:23' bound to instance 'up_monopulse' of component 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:148]
+INFO: [Synth 8-3491] module 'button_interface' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:23' bound to instance 'down_monopulse' of component 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:155]
+INFO: [Synth 8-3491] module 'button_interface' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:23' bound to instance 'left_monopulse' of component 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:162]
+INFO: [Synth 8-3491] module 'button_interface' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd:23' bound to instance 'right_monopulse' of component 'button_interface' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:169]
+INFO: [Synth 8-3491] module 'game_logic' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/game_logic.vhd:22' bound to instance 'game_logic_control' of component 'game_logic' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'game_logic' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/game_logic.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'game_logic' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/game_logic.vhd:46]
+INFO: [Synth 8-3491] module 'VGA_driver' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/VGA_driver.vhd:23' bound to instance 'vga_control' of component 'VGA_driver' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'VGA_driver' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/VGA_driver.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'VGA_driver' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/VGA_driver.vhd:35]
+INFO: [Synth 8-3491] module 'pixel_generation' declared at 'C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/pixel_generation.vhd:20' bound to instance 'pixel_generation_datapath' of component 'pixel_generation' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'pixel_generation' [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/pixel_generation.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'pixel_generation' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/pixel_generation.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'TicTacToe_shell' (0#1) [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1339.273 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[2]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[3]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[4]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[5]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[6]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[7]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[8]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[9]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[10]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[11]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[12]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[13]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[14]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_ext_port[15]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[0]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[1]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[2]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[3]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[4]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[5]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[6]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[7]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[8]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[9]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[10]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[11]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[12]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[13]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[14]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_ext_port[15]'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2_CLK'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2_DATA'. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Alex/Desktop/theTTT/theTTT.srcs/constrs_1/imports/tic_tac_toe-main/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TicTacToe_shell_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TicTacToe_shell_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1339.273 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1339.273 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'button_interface'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'game_logic'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+       button_output_low |                               00 |                               00
+  low_to_high_transition |                               01 |                               01
+      button_output_high |                               10 |                               10
+  high_to_low_transition |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'button_interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  sstart |                           000000 |                           000000
+                   spick |                           000001 |                           000001
+                sctrmid1 |                           000010 |                           000110
+              sctrright1 |                           000011 |                           000111
+              sbtmright1 |                           000100 |                           001010
+                sbtmmid1 |                           000101 |                           001001
+               sbtmleft1 |                           000110 |                           001000
+               sctrleft1 |                           000111 |                           000101
+               stopleft1 |                           001000 |                           000010
+                stopmid1 |                           001001 |                           000011
+              stopright1 |                           001010 |                           000100
+                  sdrop1 |                           001011 |                           010100
+                sctrmid2 |                           001100 |                           001111
+              sctrright2 |                           001101 |                           010000
+              sbtmright2 |                           001110 |                           010011
+                sbtmmid2 |                           001111 |                           010010
+               sbtmleft2 |                           010000 |                           010001
+               sctrleft2 |                           010001 |                           001110
+               stopleft2 |                           010010 |                           001011
+                stopmid2 |                           010011 |                           001100
+              stopright2 |                           010100 |                           001101
+                  sdrop2 |                           010101 |                           010101
+                  scheck |                           010110 |                           010110
+                 iSTATE5 |                           010111 |                           011000
+                 iSTATE4 |                           011000 |                           011001
+                 iSTATE2 |                           011001 |                           011010
+                  iSTATE |                           011010 |                           011011
+                iSTATE14 |                           011011 |                           011100
+                iSTATE12 |                           011100 |                           011101
+                 iSTATE9 |                           011101 |                           011110
+                 iSTATE8 |                           011110 |                           011111
+                 iSTATE7 |                           011111 |                           100000
+                 iSTATE6 |                           100000 |                           100001
+                 iSTATE3 |                           100001 |                           100010
+                 iSTATE0 |                           100010 |                           100011
+                iSTATE15 |                           100011 |                           100100
+                iSTATE13 |                           100100 |                           100101
+                iSTATE11 |                           100101 |                           100110
+                iSTATE10 |                           100110 |                           100111
+                 iSTATE1 |                           100111 |                           010111
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'sequential' in module 'game_logic'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 6     
+	   2 Input   10 Bit       Adders := 9     
+	   2 Input    9 Bit       Adders := 7     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 8     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   12 Bit        Muxes := 48    
+	   5 Input   12 Bit        Muxes := 8     
+	   4 Input   12 Bit        Muxes := 2     
+	  40 Input    9 Bit        Muxes := 2     
+	 112 Input    6 Bit        Muxes := 1     
+	  40 Input    4 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 43    
+	   4 Input    1 Bit        Muxes := 10    
+	  10 Input    1 Bit        Muxes := 1     
+	  40 Input    1 Bit        Muxes := 5     
+	  24 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP color_port4, operation Mode is: A*B.
+DSP Report: operator color_port4 is absorbed into DSP color_port4.
+DSP Report: Generating DSP color_port3, operation Mode is: C+(D+(A:0x3ffffe70))*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: operator color_port5 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port4, operation Mode is: (D+(A:0x3ffffec1))*B.
+DSP Report: operator color_port4 is absorbed into DSP color_port4.
+DSP Report: operator color_port5 is absorbed into DSP color_port4.
+DSP Report: Generating DSP color_port3, operation Mode is: C+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port4, operation Mode is: A*B.
+DSP Report: operator color_port4 is absorbed into DSP color_port4.
+DSP Report: Generating DSP color_port3, operation Mode is: PCIN+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port4, operation Mode is: A*B.
+DSP Report: operator color_port4 is absorbed into DSP color_port4.
+DSP Report: Generating DSP color_port3, operation Mode is: PCIN+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: C+(D+(A:0x3fffff10))*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: operator color_port5 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: PCIN+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: C+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: PCIN+(D+(A:0x3fffffb0))*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: operator color_port5 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: C+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+DSP Report: Generating DSP color_port3, operation Mode is: C+A*B.
+DSP Report: operator color_port3 is absorbed into DSP color_port3.
+DSP Report: operator color_port4 is absorbed into DSP color_port3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping               | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|pixel_generation | A*B                       | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+(D+(A:0x3ffffe70))*B    | 10     | 11     | 21     | 10     | 21     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|pixel_generation | (D+(A:0x3ffffec1))*B      | 10     | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|pixel_generation | C+A*B                     | 11     | 11     | 21     | -      | 21     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | A*B                       | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+A*B                  | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | A*B                       | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+A*B                  | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+(D+(A:0x3fffff10))*B    | 9      | 11     | 21     | 10     | 21     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|pixel_generation | PCIN+A*B                  | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+A*B                     | 11     | 11     | 22     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+(D+(A:0x3fffffb0))*B | 8      | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|pixel_generation | C+A*B                     | 11     | 11     | 22     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | C+A*B                     | 11     | 11     | 22     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-----------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:42 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:42 . Memory (MB): peak = 1339.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:43 . Memory (MB): peak = 1351.305 ; gain = 12.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:48 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:48 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|pixel_generation | A*B         | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+D+A*B     | 30     | 18     | 48     | 10     | 21     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|pixel_generation | D+A*B       | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|pixel_generation | C+A*B       | 30     | 18     | 48     | -      | 21     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | A*B         | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+A*B    | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | A*B'        | 30     | 10     | -      | -      | 22     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+A*B    | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+D+A*B     | 30     | 18     | 48     | 10     | 21     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|pixel_generation | PCIN+A*B    | 30     | 18     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pixel_generation | C+A*B       | 30     | 18     | 48     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | PCIN+D+A*B  | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|pixel_generation | C+A*B       | 30     | 18     | 48     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pixel_generation | C+A*B       | 30     | 18     | 48     | -      | 22     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |    75|
+|3     |DSP48E1 |    14|
+|8     |LUT1    |    31|
+|9     |LUT2    |   389|
+|10    |LUT3    |    55|
+|11    |LUT4    |    74|
+|12    |LUT5    |    80|
+|13    |LUT6    |   278|
+|14    |MUXF7   |     2|
+|15    |ODDR    |     1|
+|16    |FDRE    |   130|
+|17    |IBUF    |     8|
+|18    |OBUF    |    14|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:45 . Memory (MB): peak = 1368.516 ; gain = 29.242
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 1368.516 ; gain = 29.242
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1368.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 92 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.230 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 40981650
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 33 Warnings, 32 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:57 . Memory (MB): peak = 1384.230 ; gain = 44.957
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Alex/Desktop/theTTT/theTTT.runs/synth_1/TicTacToe_shell.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TicTacToe_shell_utilization_synth.rpt -pb TicTacToe_shell_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 22 18:25:32 2022...

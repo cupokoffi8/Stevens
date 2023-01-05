@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/VGA_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'VGA_driver'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/game_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'game_logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/input_conditioning.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'button_interface'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/pixel_generation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pixel_generation'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/system_clock_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_clock_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alex/Desktop/theTTT/theTTT.srcs/sources_1/imports/VHDL/TicTacToe_shell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TicTacToe_shell'
