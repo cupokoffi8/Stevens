@@ -1,0 +1,2 @@
+- Review dies and wafers 
+- Review die cost calculation ind RSK5 
