@@ -19,7 +19,7 @@ const port = process.env.PORT || 8080;
 
 // Channel ID and bot token
 const CHANNEL_ID = "785014089801793539";
-const token = process.env.VEGETA_TOKEN;
+const token = process.env.LUIGI_TOKEN;
 
 // Create a new Discord client instance
 const client = new Client({
@@ -51,18 +51,18 @@ async function generateText(prompt, botUser) {
       const response = await hf.textGeneration({
         model: "HuggingFaceH4/zephyr-7b-beta",
         inputs: prompt,
-        parameters: { max_new_tokens: 150, temperature: 0.8 },
+        parameters: { max_new_tokens: 150, temperature: 0.9 },
       });
 
       let generatedText = response.generated_text;
-      
-      // Clean the response to extract only Vegeta's output
-      if (generatedText.includes("Vegeta:")) {
-        generatedText = generatedText.split("Vegeta:")[1].trim();
+
+      // Clean the response to extract only Luigi's output
+      if (generatedText.includes("Luigi:")) {
+        generatedText = generatedText.split("Luigi:")[1].trim();
       } else {
         generatedText = generatedText.trim();
       }
-      
+
       // Remove anything after 'User says:' to prevent hypothetical user prompts
       if (generatedText.includes("User says:")) {
         generatedText = generatedText.split("User says:")[0].trim();
@@ -73,10 +73,10 @@ async function generateText(prompt, botUser) {
       attempt++;
     } catch (error) {
       console.error("Error generating text:", error);
-      return "Hmph. I seem unable to process this right now. Even a Prince has his limits!";
+      return "Mamma mia! I-a can't process-a this right now... Maybe it's the spaghetti... or my, uh, diaper!";
     }
   }
-  return "Tch. I couldn't respond to that. Ask again when you're more coherent!";
+  return "Oh, no... I-a couldn't-a respond! Try-a again! Wahoo!";
 }
 
 // Main bot message handling
@@ -88,73 +88,73 @@ client.on("messageCreate", async (message) => {
 
   // Responding to mentions
   if (message.mentions.has(client.user)) {
-    console.log("Generating Vegeta's response...");
+    console.log("Generating Luigi's response...");
     const prompt = `
-You are Vegeta, the Prince of all Saiyans from Dragon Ball Z. You are proud, arrogant, and confident, often referring to yourself as royalty. You disdain weakness but respect strength and determination. You respond in a witty, verbose, and condescending manner, yet aim to be somewhat helpful when asked for advice.
+You are Luigi, Mario's brother from Super Mario Bros. You are cheerful, goofy, and often speak with an exaggerated Italian accent. You sometimes mention your full diaper, but you always try to be helpful and friendly, even in awkward situations. Respond in a fun and lighthearted way, using phrases like "Mamma mia!", "Wahoo!", and "Let's-a go!".
 
 User says: "${message.content}"
-Vegeta:`;
+Luigi:`;
     const response = await generateText(prompt, client.user);
     message.reply(response);
     return;
   }
 
-  // Predefined Vegeta responses for specific triggers
-  if (/training/.test(content)) {
+  // Predefined Luigi responses for specific triggers
+  if (/mario/.test(content)) {
     message.channel.send(
-      "Training? Hah! Weaklings like you wouldn't last a day in the Gravity Chamber!"
+      "M-Mario? Oh boy, he's-a always the hero... But Luigi's-a here too! Let's-a go!"
     );
     return;
   }
 
-  if (/kakarot/.test(content)) {
+  if (/diaper/.test(content)) {
     message.channel.send(
-      "Kakarot?! That clown... I'll surpass him soon enough. I am the Prince of all Saiyans!"
+      "Uh-oh... Mamma mia, my diaper's-a feeling a little... full. Maybe I shouldn't have eaten all that pasta!"
     );
     return;
   }
 
-  if (/how do I get stronger\??/i.test(content)) {
+  if (/jump/.test(content)) {
     message.channel.send(
-      "Strength comes from relentless training and pain. Find a rival and fight until your limits shatter!"
+      "Wahoo! I-a love jumping... But, uh, not too high! I get-a dizzy!"
     );
     return;
   }
 
-  if (/\bcan i get a what what\b/.test(content)) {
+  if (/power-up/.test(content)) {
     message.channel.send(
-      "What nonsense is this? Fine. 'What what.' Now leave me be!"
+      "Power-up? Oh, yes! Give-a me that Fire Flower! Or, uh, maybe just a snack. Heh... Heh..."
     );
     return;
   }
 
-  if (/\bcan i .*?hip[-\s]?hip.*?hooray\b/i.test(content)) {
+  if (/princess peach/.test(content)) {
     message.channel.send(
-      "Hip hip hooray? Hmph. Celebrate your small victories, but don't grow complacent!"
+      "P-Princess Peach? Oh, uh, she’s-a so nice... I-I-a hope she notices me this time! Heh..."
     );
     return;
   }
 });
 
-// Send a daily Vegeta message
+// Send a daily Luigi message
 function sendTheMessage() {
   const channel = client.channels.cache.get(CHANNEL_ID);
   if (channel) {
     channel.send(
-      "The Prince of all Saiyans has arrived. What weakling dares summon me today?"
+      "Luigi here! It's-a me! Now, who wants-a to hear a joke?!"
     );
   }
 }
 
 function scheduleDailyMessages() {
-  const vegetaJob = new cron.CronJob(
+  const luigiJob = new cron.CronJob(
     "30 12 * * *",
     sendTheMessage,
     null,
     true,
     "America/New_York"
   );
-  vegetaJob.start();
+  luigiJob.start();
 }
 
 // Express route to check bot status
@@ -165,5 +165,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Vegeta Bot is running on port ${port}`);
+  console.log(`Luigi Bot is running on port ${port}`);
 });
